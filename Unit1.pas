@@ -3,14 +3,11 @@ unit Unit1;
 interface
 
 uses
-  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, Menus;
+  SysUtils, Classes, ZAbstractConnection, ZConnection;
 
 type
-  Tmainmenu = class(TForm)
-    MainMenu1: TMainMenu;
-    MainMenu2: TMenuItem;
-    Siswa: TMenuItem;
+  TDataModule1 = class(TDataModule)
+    ZConnection1: TZConnection;
   private
     { Private declarations }
   public
@@ -18,7 +15,7 @@ type
   end;
 
 var
-  mainmenu: Tmainmenu;
+  DataModule1: TDataModule1;
 
 implementation
 
