@@ -5,10 +5,10 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset, ComCtrls,
-  StdCtrls, ExtCtrls, Grids, DBGrids;
+  StdCtrls, ExtCtrls, Grids, DBGrids, Unit3;
 
 type
-  TForm2 = class(TForm)
+  Tsiswa = class(TForm)
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
@@ -49,7 +49,7 @@ type
   end;
 
 var
-  Form2: TForm2;
+  siswa: Tsiswa;
 
 implementation
 

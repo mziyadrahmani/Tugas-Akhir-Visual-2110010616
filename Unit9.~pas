@@ -8,7 +8,7 @@ uses
   StdCtrls, Grids, DBGrids;
 
 type
-  TForm9 = class(TForm)
+  Tsemester = class(TForm)
     Label2: TLabel;
     DBGrid1: TDBGrid;
     Edit1: TEdit;
@@ -34,7 +34,7 @@ type
   end;
 
 var
-  Form9: TForm9;
+  semester: Tsemester;
 
 implementation
 

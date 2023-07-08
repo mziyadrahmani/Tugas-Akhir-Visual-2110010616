@@ -5,7 +5,7 @@ interface
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset, ComCtrls,
-  StdCtrls, ExtCtrls, Grids, DBGrids;
+  StdCtrls, ExtCtrls, Grids, DBGrids, Unit3;
 
 type
   Tsiswa = class(TForm)

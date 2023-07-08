@@ -1,9 +1,9 @@
-object Form1: TForm1
+object mainmenu: Tmainmenu
   Left = 192
   Top = 125
-  Width = 1044
+  Width = 470
   Height = 540
-  Caption = 'Form1'
+  Caption = 'mainmenu'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

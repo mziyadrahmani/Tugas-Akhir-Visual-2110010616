@@ -1,6 +1,6 @@
 object semester: Tsemester
-  Left = 192
-  Top = 125
+  Left = 146
+  Top = 193
   Width = 1234
   Height = 683
   Caption = 'semester'

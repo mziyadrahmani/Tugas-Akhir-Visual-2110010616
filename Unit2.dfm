@@ -1,6 +1,6 @@
 object siswa: Tsiswa
-  Left = 259
-  Top = 87
+  Left = 250
+  Top = 170
   Width = 1317
   Height = 803
   Caption = 'siswa'
@@ -161,7 +161,6 @@ object siswa: Tsiswa
     Top = 552
     Width = 1194
     Height = 185
-    DataSource = DataSource1
     TabOrder = 0
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText

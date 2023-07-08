@@ -18,5 +18,14 @@ uses
 begin
   Application.Initialize;
   Application.CreateForm(Tmainmenu, mainmenu);
+  Application.CreateForm(TDataModule10, DataModule10);
+  Application.CreateForm(Tsiswa, siswa);
+  Application.CreateForm(Twalikelas, walikelas);
+  Application.CreateForm(Tortu, ortu);
+  Application.CreateForm(Thubungan, hubungan);
+  Application.CreateForm(Tkelas, kelas);
+  Application.CreateForm(Tpoin, poin);
+  Application.CreateForm(Tsemester, semester);
+  Application.CreateForm(Tuser, user);
   Application.Run;
 end.

@@ -1,7 +1,7 @@
 object mainmenu: Tmainmenu
   Left = 192
   Top = 125
-  Width = 1044
+  Width = 470
   Height = 540
   Caption = 'mainmenu'
   Color = clBtnFace
