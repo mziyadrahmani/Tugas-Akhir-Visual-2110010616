@@ -1,8 +1,8 @@
 object semester: Tsemester
-  Left = 188
-  Top = 124
-  Width = 1109
-  Height = 731
+  Left = 192
+  Top = 125
+  Width = 1234
+  Height = 683
   Caption = 'semester'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -236,22 +236,8 @@ object semester: Tsemester
     Time = 45102.549123171290000000
     TabOrder = 14
   end
-  object ZConnection1: TZConnection
-    ControlsCodePage = cGET_ACP
-    UTF8StringsAsWideField = False
-    AutoEncodeStrings = False
-    Connected = True
-    HostName = 'localhost'
-    Port = 3306
-    Database = 'laporansiswa'
-    User = 'root'
-    Protocol = 'mysql'
-    LibraryLocation = 'C:\Program Files (x86)\Borland\Delphi7\Zeos703\libmysql.dll'
-    Left = 24
-    Top = 24
-  end
   object ZQuery1: TZQuery
-    Connection = ZConnection1
+    Connection = DataModule10.ZConnection1
     Active = True
     SQL.Strings = (
       'select * from semester')

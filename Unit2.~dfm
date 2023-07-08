@@ -1,9 +1,9 @@
-object walikelas: Twalikelas
-  Left = 175
-  Top = 69
-  Width = 1359
-  Height = 794
-  Caption = 'walikelas'
+object Form2: TForm2
+  Left = 192
+  Top = 51
+  Width = 1317
+  Height = 803
+  Caption = 'Form2'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -16,9 +16,9 @@ object walikelas: Twalikelas
   object Label1: TLabel
     Left = 24
     Top = 72
-    Width = 24
+    Width = 23
     Height = 18
-    Caption = 'NIK'
+    Caption = 'NIS'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
@@ -29,9 +29,9 @@ object walikelas: Twalikelas
   object Label2: TLabel
     Left = 24
     Top = 112
-    Width = 45
+    Width = 34
     Height = 18
-    Caption = 'Nama'
+    Caption = 'NISN'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
@@ -42,9 +42,9 @@ object walikelas: Twalikelas
   object Label3: TLabel
     Left = 24
     Top = 152
-    Width = 100
+    Width = 89
     Height = 18
-    Caption = 'Jenis Kelamin'
+    Caption = 'Nama Siswa'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
@@ -55,9 +55,9 @@ object walikelas: Twalikelas
   object Label4: TLabel
     Left = 24
     Top = 192
-    Width = 83
+    Width = 24
     Height = 18
-    Caption = 'Pendidikan'
+    Caption = 'NIK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
@@ -68,9 +68,9 @@ object walikelas: Twalikelas
   object Label5: TLabel
     Left = 24
     Top = 232
-    Width = 59
+    Width = 93
     Height = 18
-    Caption = 'Telepon'
+    Caption = 'Tempat Lahir'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
@@ -81,9 +81,9 @@ object walikelas: Twalikelas
   object Label6: TLabel
     Left = 24
     Top = 272
-    Width = 112
+    Width = 98
     Height = 18
-    Caption = 'Mata Pelajaran'
+    Caption = 'Tanggal Lahir'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
@@ -94,9 +94,9 @@ object walikelas: Twalikelas
   object Label7: TLabel
     Left = 24
     Top = 312
-    Width = 53
+    Width = 100
     Height = 18
-    Caption = 'Alamat'
+    Caption = 'Jenis Kelamin'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -15
@@ -107,6 +107,45 @@ object walikelas: Twalikelas
   object Label8: TLabel
     Left = 24
     Top = 352
+    Width = 53
+    Height = 18
+    Caption = 'Alamat'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Century Gothic'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label9: TLabel
+    Left = 24
+    Top = 392
+    Width = 59
+    Height = 18
+    Caption = 'Telepon'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Century Gothic'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label10: TLabel
+    Left = 24
+    Top = 424
+    Width = 18
+    Height = 18
+    Caption = 'HP'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Century Gothic'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label11: TLabel
+    Left = 24
+    Top = 464
     Width = 41
     Height = 18
     Caption = 'Status'
@@ -119,9 +158,9 @@ object walikelas: Twalikelas
   end
   object DBGrid1: TDBGrid
     Left = 47
-    Top = 449
+    Top = 552
     Width = 1194
-    Height = 256
+    Height = 185
     DataSource = DataSource1
     TabOrder = 0
     TitleFont.Charset = DEFAULT_CHARSET
@@ -146,68 +185,68 @@ object walikelas: Twalikelas
   end
   object Edit3: TEdit
     Left = 615
-    Top = 184
+    Top = 152
     Width = 561
     Height = 21
     TabOrder = 3
   end
   object Edit4: TEdit
     Left = 615
-    Top = 224
+    Top = 192
     Width = 561
     Height = 21
     TabOrder = 4
   end
   object Edit5: TEdit
     Left = 615
-    Top = 264
+    Top = 232
     Width = 561
     Height = 21
     TabOrder = 5
   end
   object Button1: TButton
-    Left = 344
-    Top = 392
+    Left = 336
+    Top = 504
     Width = 113
     Height = 33
     Caption = 'Baru'
     TabOrder = 6
   end
   object Button2: TButton
-    Left = 472
-    Top = 392
+    Left = 464
+    Top = 504
     Width = 113
     Height = 33
     Caption = 'Simpan'
     TabOrder = 7
   end
   object Button3: TButton
-    Left = 600
-    Top = 392
+    Left = 592
+    Top = 504
     Width = 113
     Height = 33
     Caption = 'Edit'
     TabOrder = 8
   end
   object Button4: TButton
-    Left = 728
-    Top = 392
+    Left = 720
+    Top = 504
     Width = 113
     Height = 33
     Caption = 'Hapus'
     TabOrder = 9
   end
   object Button5: TButton
-    Left = 856
-    Top = 392
+    Left = 848
+    Top = 504
     Width = 113
     Height = 33
     Caption = 'Batal'
     TabOrder = 10
   end
   object Edit6: TEdit
-    Left = 104
-    Top = 400
+    Left = 96
+    Top = 512
     Width = 41
     Height = 21
     TabOrder = 11
@@ -215,24 +254,38 @@ object walikelas: Twalikelas
   end
   object Edit7: TEdit
     Left = 615
-    Top = 304
+    Top = 352
     Width = 561
     Height = 21
     TabOrder = 12
   end
   object Edit8: TEdit
     Left = 615
-    Top = 344
+    Top = 384
     Width = 561
     Height = 21
     TabOrder = 13
   end
+  object Edit9: TEdit
+    Left = 615
+    Top = 424
+    Width = 561
+    Height = 21
+    TabOrder = 14
+  end
+  object Edit10: TEdit
+    Left = 615
+    Top = 464
+    Width = 561
+    Height = 21
+    TabOrder = 15
+  end
   object Panel1: TPanel
     Left = 616
-    Top = 144
+    Top = 304
     Width = 561
     Height = 33
-    TabOrder = 14
+    TabOrder = 16
     object RadioButton1: TRadioButton
       Left = 24
       Top = 8
@@ -250,11 +303,19 @@ object walikelas: Twalikelas
       TabOrder = 1
     end
   end
+  object DateTimePicker1: TDateTimePicker
+    Left = 616
+    Top = 264
+    Width = 186
+    Height = 21
+    Date = 45102.547001076390000000
+    Time = 45102.547001076390000000
+    TabOrder = 17
+  end
   object ZQuery1: TZQuery
     Connection = DataModule10.ZConnection1
-    Active = True
     SQL.Strings = (
-      'select * from walikelas')
+      'select * from siswa')
     Params = <>
     Left = 96
     Top = 24

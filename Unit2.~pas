@@ -1,14 +1,14 @@
-unit Unit4;
+unit Unit2;
 
 interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset, StdCtrls,
-  ExtCtrls, Grids, DBGrids;
+  Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset, ComCtrls,
+  StdCtrls, ExtCtrls, Grids, DBGrids;
 
 type
-  Twalikelas = class(TForm)
+  TForm2 = class(TForm)
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
@@ -17,6 +17,9 @@ type
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
     DBGrid1: TDBGrid;
     Edit1: TEdit;
     Edit2: TEdit;
@@ -31,9 +34,12 @@ type
     Edit6: TEdit;
     Edit7: TEdit;
     Edit8: TEdit;
+    Edit9: TEdit;
+    Edit10: TEdit;
     Panel1: TPanel;
     RadioButton1: TRadioButton;
     RadioButton2: TRadioButton;
+    DateTimePicker1: TDateTimePicker;
     ZQuery1: TZQuery;
     DataSource1: TDataSource;
   private
@@ -43,7 +49,7 @@ type
   end;
 
 var
-  walikelas: Twalikelas;
+  Form2: TForm2;
 
 implementation
 

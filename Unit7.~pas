@@ -4,11 +4,11 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset,
-  ZAbstractConnection, ZConnection, StdCtrls, Grids, DBGrids;
+  Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset, StdCtrls,
+  Grids, DBGrids;
 
 type
-  Tpoin = class(TForm)
+  TForm7 = class(TForm)
     Label2: TLabel;
     DBGrid1: TDBGrid;
     Edit1: TEdit;
@@ -19,11 +19,8 @@ type
     Button4: TButton;
     Button5: TButton;
     Edit6: TEdit;
-    ZConnection1: TZConnection;
     ZQuery1: TZQuery;
     DataSource1: TDataSource;
-    Edit3: TEdit;
-    Edit4: TEdit;
   private
     { Private declarations }
   public
@@ -31,7 +28,7 @@ type
   end;
 
 var
-  poin: Tpoin;
+  Form7: TForm7;
 
 implementation
 

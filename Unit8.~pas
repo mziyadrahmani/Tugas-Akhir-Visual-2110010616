@@ -4,11 +4,11 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset,
-  ZAbstractConnection, ZConnection, StdCtrls, Grids, DBGrids;
+  Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset, StdCtrls,
+  Grids, DBGrids;
 
 type
-  Thubungan = class(TForm)
+  TForm8 = class(TForm)
     Label2: TLabel;
     DBGrid1: TDBGrid;
     Edit1: TEdit;
@@ -19,12 +19,10 @@ type
     Button4: TButton;
     Button5: TButton;
     Edit6: TEdit;
-    ZConnection1: TZConnection;
-    ZQuery1: TZQuery;
-    DataSource1: TDataSource;
     Edit3: TEdit;
     Edit4: TEdit;
-    Edit5: TEdit;
+    ZQuery1: TZQuery;
+    DataSource1: TDataSource;
   private
     { Private declarations }
   public
@@ -32,7 +30,7 @@ type
   end;
 
 var
-  hubungan: Thubungan;
+  Form8: TForm8;
 
 implementation
 

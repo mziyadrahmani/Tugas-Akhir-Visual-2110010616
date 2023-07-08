@@ -1,4 +1,4 @@
-unit Unit4;
+unit Unit5;
 
 interface
 
@@ -8,7 +8,7 @@ uses
   ExtCtrls, Grids, DBGrids;
 
 type
-  Twalikelas = class(TForm)
+  TForm5 = class(TForm)
     Label1: TLabel;
     Label2: TLabel;
     Label3: TLabel;
@@ -17,6 +17,7 @@ type
     Label6: TLabel;
     Label7: TLabel;
     Label8: TLabel;
+    Label9: TLabel;
     DBGrid1: TDBGrid;
     Edit1: TEdit;
     Edit2: TEdit;
@@ -34,6 +35,7 @@ type
     Panel1: TPanel;
     RadioButton1: TRadioButton;
     RadioButton2: TRadioButton;
+    Edit9: TEdit;
     ZQuery1: TZQuery;
     DataSource1: TDataSource;
   private
@@ -43,7 +45,7 @@ type
   end;
 
 var
-  walikelas: Twalikelas;
+  Form5: TForm5;
 
 implementation
 

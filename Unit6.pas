@@ -4,11 +4,11 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset,
-  ZAbstractConnection, ZConnection, StdCtrls, Grids, DBGrids, ComCtrls;
+  Dialogs, DB, ZAbstractRODataset, ZAbstractDataset, ZDataset, StdCtrls,
+  Grids, DBGrids;
 
 type
-  Tuser = class(TForm)
+  Thubungan = class(TForm)
     Label2: TLabel;
     DBGrid1: TDBGrid;
     Edit1: TEdit;
@@ -19,15 +19,11 @@ type
     Button4: TButton;
     Button5: TButton;
     Edit6: TEdit;
-    ZConnection1: TZConnection;
-    ZQuery1: TZQuery;
-    DataSource1: TDataSource;
     Edit3: TEdit;
     Edit4: TEdit;
     Edit5: TEdit;
-    Edit8: TEdit;
-    DateTimePicker1: TDateTimePicker;
-    DateTimePicker2: TDateTimePicker;
+    ZQuery1: TZQuery;
+    DataSource1: TDataSource;
   private
     { Private declarations }
   public
@@ -35,7 +31,7 @@ type
   end;
 
 var
-  user: Tuser;
+  hubungan: Thubungan;
 
 implementation
 

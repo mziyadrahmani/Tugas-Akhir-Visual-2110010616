@@ -1,9 +1,9 @@
-object walikelas: Twalikelas
-  Left = 184
-  Top = 75
-  Width = 1302
-  Height = 775
-  Caption = 'walikelas'
+object Form4: TForm4
+  Left = 175
+  Top = 69
+  Width = 1359
+  Height = 794
+  Caption = 'Form4'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -250,25 +250,11 @@ object walikelas: Twalikelas
       TabOrder = 1
     end
   end
-  object ZConnection1: TZConnection
-    ControlsCodePage = cGET_ACP
-    UTF8StringsAsWideField = False
-    AutoEncodeStrings = False
-    Connected = True
-    HostName = 'localhost'
-    Port = 3306
-    Database = 'laporansiswa'
-    User = 'root'
-    Protocol = 'mysql'
-    LibraryLocation = 'C:\Program Files (x86)\Borland\Delphi7\Zeos703\libmysql.dll'
-    Left = 24
-    Top = 24
-  end
   object ZQuery1: TZQuery
-    Connection = ZConnection1
+    Connection = DataModule10.ZConnection1
     Active = True
     SQL.Strings = (
-      'select * from siswa')
+      'select * from walikelas')
     Params = <>
     Left = 96
     Top = 24
