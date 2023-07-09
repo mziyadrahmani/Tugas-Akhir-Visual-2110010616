@@ -4,8 +4,9 @@ interface
 
 uses
   Windows, Messages  , SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, ZAbstractConnection, ZConnection, DB, ,
-  ZAbstractDataset, ZDataset, Grids, DBGrids, StdCtrls, frxClass, frxDBSet;
+  Dialogs, ZAbstractConnection, ZConnection, DB,
+  frxClass, frxDBSet, ZAbstractRODataset, ZAbstractDataset, ZDataset,
+  StdCtrls, Grids, DBGrids;
 
 type
   TFHubungan = class(TForm)

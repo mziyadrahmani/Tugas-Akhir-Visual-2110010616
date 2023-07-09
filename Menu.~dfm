@@ -1,14 +1,14 @@
 object MenuUtama: TMenuUtama
   Left = 199
   Top = 154
-  Width = 1045
+  Width = 480
   Height = 541
   Caption = 'MENU UTAMA'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
-  Font.Name = 'Tahoma'
+  Font.Name = 'Century Gothic'
   Font.Style = []
   Menu = mm1
   OldCreateOrder = False

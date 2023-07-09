@@ -85,7 +85,7 @@ end;
 
 procedure TMenuUtama.SEMESTER1Click(Sender: TObject);
 begin
-Fsemester.ShowModal;
+FSemester.ShowModal;
 end;
 
 end.

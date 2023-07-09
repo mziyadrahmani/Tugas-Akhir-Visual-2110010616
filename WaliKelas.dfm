@@ -8,7 +8,7 @@ object FWaliKelas: TFWaliKelas
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
-  Font.Name = 'Tahoma'
+  Font.Name = 'Century Gothic'
   Font.Style = []
   OldCreateOrder = False
   OnShow = FormShow
@@ -23,7 +23,7 @@ object FWaliKelas: TFWaliKelas
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
@@ -36,7 +36,7 @@ object FWaliKelas: TFWaliKelas
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
@@ -49,7 +49,7 @@ object FWaliKelas: TFWaliKelas
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
@@ -62,7 +62,7 @@ object FWaliKelas: TFWaliKelas
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
@@ -75,7 +75,7 @@ object FWaliKelas: TFWaliKelas
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
@@ -88,7 +88,7 @@ object FWaliKelas: TFWaliKelas
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
@@ -101,7 +101,7 @@ object FWaliKelas: TFWaliKelas
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
@@ -114,7 +114,7 @@ object FWaliKelas: TFWaliKelas
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
@@ -127,7 +127,7 @@ object FWaliKelas: TFWaliKelas
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
@@ -207,7 +207,7 @@ object FWaliKelas: TFWaliKelas
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
+    TitleFont.Name = 'Century Gothic'
     TitleFont.Style = []
     OnCellClick = dbgrd1CellClick
   end

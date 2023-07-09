@@ -6,10 +6,10 @@ uses
   Windows, Messages  , SysUtils, Variants, Classes, Graphics, Controls, Forms,
   Dialogs, Grids, DBGrids, DB,
   frxClass, frxDBSet,  ZAbstractDataset, ZDataset,
-  StdCtrls,  ZAbstractDataset,
-  ZDataset, ZAbstractConnection, ZConnection, StdCtrls, frxClass, frxDBSet,
+  StdCtrls, ZAbstractConnection, ZConnection,
+  ZAbstractRODataset   ;
 
-type,
+type
   TFOrtu = class(TForm)
     lblnik: TLabel;
     lblnama: TLabel;
@@ -64,7 +64,8 @@ var
 implementation
 
 uses
-  WaliKelas;
+  WaliKelas,
+  Unit1;
 
 {$R *.dfm}
 

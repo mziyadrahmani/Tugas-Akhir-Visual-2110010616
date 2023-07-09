@@ -8,6 +8,7 @@ uses
   frxClass, frxDBSet, ZAbstractDataset, ZDataset,
   ComCtrls, StdCtrls, Grids, DBGrids,
   ZAbstractConnection, ZConnection,
+  ZAbstractRODataset
   ;
 
 type

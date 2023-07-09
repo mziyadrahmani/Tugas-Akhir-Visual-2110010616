@@ -64,7 +64,8 @@ var
 implementation
 
 uses
-  WaliKelas;
+  WaliKelas,
+  Unit1;
 
 {$R *.dfm}
 

@@ -1,150 +1,150 @@
 object FPoin: TFPoin
-  Left = 319
-  Top = 299
-  Width = 769
-  Height = 540
+  Left = 252
+  Top = 57
+  Width = 884
+  Height = 633
   Caption = 'Poin'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
-  Font.Name = 'Tahoma'
+  Font.Name = 'Century Gothic'
   Font.Style = []
   OldCreateOrder = False
   OnShow = FormShow
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 16
   object lblnamapoin: TLabel
-    Left = 24
-    Top = 16
-    Width = 96
-    Height = 19
-    Caption = 'NAMA POIN :'
+    Left = 30
+    Top = 28
+    Width = 85
+    Height = 21
+    Caption = 'Nama Poin'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblbobot: TLabel
-    Left = 24
-    Top = 48
-    Width = 60
-    Height = 19
-    Caption = 'BOBOT :'
+    Left = 30
+    Top = 67
+    Width = 47
+    Height = 21
+    Caption = 'Bobot'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lbljenis: TLabel
-    Left = 344
-    Top = 16
-    Width = 48
-    Height = 19
-    Caption = 'JENIS :'
+    Left = 31
+    Top = 108
+    Width = 37
+    Height = 21
+    Caption = 'Jenis'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblstatus: TLabel
-    Left = 344
-    Top = 48
-    Width = 62
-    Height = 19
-    Caption = 'STATUS :'
+    Left = 31
+    Top = 147
+    Width = 49
+    Height = 21
+    Caption = 'Status'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object Edtnamapoin: TEdit
-    Left = 136
-    Top = 16
-    Width = 177
-    Height = 21
+    Left = 167
+    Top = 28
+    Width = 666
+    Height = 24
     TabOrder = 0
   end
   object Edtbobot: TEdit
-    Left = 136
-    Top = 48
-    Width = 177
-    Height = 21
+    Left = 167
+    Top = 67
+    Width = 666
+    Height = 24
     TabOrder = 1
   end
   object bbaru: TButton
-    Left = 16
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 92
+    Top = 197
+    Width = 129
+    Height = 50
     Caption = 'BARU'
     TabOrder = 2
     OnClick = bbaruClick
   end
   object bsimpan: TButton
-    Left = 136
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 239
+    Top = 197
+    Width = 130
+    Height = 50
     Caption = 'SIMPAN'
     TabOrder = 3
     OnClick = bsimpanClick
   end
   object bedit: TButton
-    Left = 256
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 387
+    Top = 197
+    Width = 129
+    Height = 50
     Caption = 'EDIT'
     TabOrder = 4
     OnClick = beditClick
   end
   object bhapus: TButton
-    Left = 376
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 535
+    Top = 197
+    Width = 129
+    Height = 50
     Caption = 'HAPUS'
     TabOrder = 5
     OnClick = bhapusClick
   end
   object bbatal: TButton
-    Left = 496
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 682
+    Top = 197
+    Width = 130
+    Height = 50
     Caption = 'BATAL'
     TabOrder = 6
     OnClick = bbatalClick
   end
   object dbgrd1: TDBGrid
-    Left = 16
-    Top = 216
-    Width = 625
-    Height = 241
+    Left = 68
+    Top = 282
+    Width = 769
+    Height = 296
     DataSource = ds1
     TabOrder = 7
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
+    TitleFont.Name = 'Century Gothic'
     TitleFont.Style = []
     OnCellClick = dbgrd1CellClick
   end
   object cbbjenis: TComboBox
-    Left = 416
-    Top = 16
-    Width = 185
-    Height = 21
-    ItemHeight = 13
+    Left = 168
+    Top = 108
+    Width = 666
+    Height = 24
+    ItemHeight = 16
     TabOrder = 8
     Text = '--- Pilih ---'
     Items.Strings = (
@@ -152,11 +152,11 @@ object FPoin: TFPoin
       'Prestasi')
   end
   object cbbstatus: TComboBox
-    Left = 416
-    Top = 48
-    Width = 185
-    Height = 21
-    ItemHeight = 13
+    Left = 168
+    Top = 147
+    Width = 666
+    Height = 24
+    ItemHeight = 16
     TabOrder = 9
     Text = '--- Pilih ---'
     Items.Strings = (
@@ -164,10 +164,10 @@ object FPoin: TFPoin
       'Nonaktif')
   end
   object Cetak: TButton
-    Left = 496
-    Top = 128
-    Width = 75
-    Height = 25
+    Left = 8
+    Top = 392
+    Width = 49
+    Height = 81
     Caption = 'Cetak'
     TabOrder = 10
     OnClick = CetakClick
@@ -178,13 +178,13 @@ object FPoin: TFPoin
     SQL.Strings = (
       'select * from poin')
     Params = <>
-    Left = 120
-    Top = 280
+    Left = 72
+    Top = 512
   end
   object ds1: TDataSource
     DataSet = ZQuery1
-    Left = 184
-    Top = 280
+    Left = 72
+    Top = 544
   end
   object frxpoin: TfrxReport
     Version = '4.12.6'
@@ -201,8 +201,8 @@ object FPoin: TFPoin
       'begin'
       ''
       'end.')
-    Left = 488
-    Top = 280
+    Left = 104
+    Top = 512
     Datasets = <
       item
         DataSet = frxDBDataset1
@@ -504,7 +504,7 @@ object FPoin: TFPoin
     CloseDataSource = False
     DataSet = ZQuery1
     BCDToCurrency = False
-    Left = 552
-    Top = 280
+    Left = 104
+    Top = 544
   end
 end

@@ -10,8 +10,6 @@ uses
 
 
 type
-  frxClass, frxDBSet, ZAbstractRODataset, ZAbstractDataset, ZDataset,
-  StdCtrls, Grids, DBGrids
   TFUser = class(TForm)
     lblnis: TLabel;
     lblnisn: TLabel;

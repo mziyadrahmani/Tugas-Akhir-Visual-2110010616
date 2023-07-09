@@ -1,137 +1,191 @@
 object FKelas: TFKelas
-  Left = 734
-  Top = 221
-  Width = 803
-  Height = 540
-  Caption = 'FORM KELAS'
+  Left = 482
+  Top = 118
+  Width = 853
+  Height = 593
+  Caption = 'Kelas'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
-  Font.Name = 'Tahoma'
+  Font.Name = 'Century Gothic'
   Font.Style = []
   OldCreateOrder = False
   OnShow = FormShow
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 16
   object lblnama: TLabel
-    Left = 24
-    Top = 8
-    Width = 54
-    Height = 19
-    Caption = 'NAMA :'
+    Left = 39
+    Top = 38
+    Width = 49
+    Height = 21
+    Caption = 'Nama'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lbljenis: TLabel
-    Left = 24
-    Top = 40
-    Width = 48
-    Height = 19
-    Caption = 'JENIS :'
+    Left = 39
+    Top = 77
+    Width = 39
+    Height = 21
+    Caption = 'Kelas'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lbljurusan: TLabel
-    Left = 24
-    Top = 72
-    Width = 77
-    Height = 19
-    Caption = 'JURUSAN :'
+    Left = 39
+    Top = 116
+    Width = 60
+    Height = 21
+    Caption = 'Jurusan'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object Edtnama: TEdit
-    Left = 136
-    Top = 8
-    Width = 177
-    Height = 21
+    Left = 217
+    Top = 39
+    Width = 572
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 0
   end
   object Edtjenis: TEdit
-    Left = 136
-    Top = 40
-    Width = 177
-    Height = 21
+    Left = 217
+    Top = 79
+    Width = 572
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 1
   end
   object bbaru: TButton
-    Left = 24
-    Top = 120
-    Width = 105
-    Height = 41
+    Left = 69
+    Top = 167
+    Width = 129
+    Height = 51
     Caption = 'BARU'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 2
     OnClick = bbaruClick
   end
   object bsimpan: TButton
-    Left = 144
-    Top = 120
-    Width = 105
-    Height = 41
+    Left = 217
+    Top = 167
+    Width = 129
+    Height = 51
     Caption = 'SIMPAN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 3
     OnClick = bsimpanClick
   end
   object bedit: TButton
-    Left = 264
-    Top = 120
-    Width = 105
-    Height = 41
+    Left = 364
+    Top = 167
+    Width = 130
+    Height = 51
     Caption = 'EDIT'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 4
     OnClick = beditClick
   end
   object bhapus: TButton
-    Left = 384
-    Top = 120
-    Width = 105
-    Height = 41
+    Left = 512
+    Top = 167
+    Width = 129
+    Height = 51
     Caption = 'HAPUS'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 5
     OnClick = bhapusClick
   end
   object bbatal: TButton
-    Left = 504
-    Top = 120
-    Width = 105
-    Height = 41
+    Left = 660
+    Top = 167
+    Width = 129
+    Height = 51
     Caption = 'BATAL'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 6
     OnClick = bbatalClick
   end
   object dbgrd1: TDBGrid
-    Left = 24
-    Top = 176
-    Width = 625
-    Height = 241
+    Left = 69
+    Top = 236
+    Width = 720
+    Height = 297
     DataSource = ds1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 7
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
+    TitleFont.Name = 'Century Gothic'
     TitleFont.Style = []
     OnCellClick = dbgrd1CellClick
   end
   object cbbjurusan: TComboBox
-    Left = 136
-    Top = 72
-    Width = 177
-    Height = 21
-    ItemHeight = 13
+    Left = 217
+    Top = 118
+    Width = 572
+    Height = 25
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ItemHeight = 17
+    ParentFont = False
     TabOrder = 8
     Text = '--- Pilih ---'
     Items.Strings = (
@@ -139,11 +193,17 @@ object FKelas: TFKelas
       'IPS')
   end
   object Cetak: TButton
-    Left = 504
-    Top = 88
-    Width = 75
-    Height = 25
+    Left = 10
+    Top = 335
+    Width = 50
+    Height = 90
     Caption = 'Cetak'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 9
     OnClick = CetakClick
   end
@@ -154,13 +214,13 @@ object FKelas: TFKelas
       'select * from kelas'
       '')
     Params = <>
-    Left = 128
-    Top = 248
+    Left = 80
+    Top = 496
   end
   object ds1: TDataSource
     DataSet = ZQuery1
-    Left = 168
-    Top = 248
+    Left = 80
+    Top = 464
   end
   object frxkelas: TfrxReport
     Version = '4.12.6'
@@ -177,8 +237,8 @@ object FKelas: TFKelas
       'begin'
       ''
       'end.')
-    Left = 440
-    Top = 264
+    Left = 112
+    Top = 464
     Datasets = <
       item
         DataSet = frxDBDataset1
@@ -432,7 +492,7 @@ object FKelas: TFKelas
     CloseDataSource = False
     DataSet = ZQuery1
     BCDToCurrency = False
-    Left = 528
-    Top = 256
+    Left = 112
+    Top = 496
   end
 end

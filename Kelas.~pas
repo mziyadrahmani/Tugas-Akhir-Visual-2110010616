@@ -4,8 +4,12 @@ interface
 
 uses
   Windows, Messages  , SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, DB, , ZAbstractDataset, ZDataset,
-  ZAbstractConnection, ZConnection, Grids, DBGrids, frxClass, frxDBSet;
+  Dialogs, DB,
+  frxClass, frxDBSet, ZAbstractDataset, ZDataset,
+  ComCtrls, StdCtrls, Grids, DBGrids,
+  ZAbstractConnection, ZConnection,
+  ZAbstractRODataset
+  ;
 
 type
   TFKelas = class(TForm)

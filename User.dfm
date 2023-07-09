@@ -1,207 +1,207 @@
 object FUser: TFUser
-  Left = 335
-  Top = 135
-  Width = 775
-  Height = 540
+  Left = 341
+  Top = 143
+  Width = 1056
+  Height = 648
   Caption = 'User'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
-  Font.Name = 'Tahoma'
+  Font.Name = 'Century Gothic'
   Font.Style = []
   OldCreateOrder = False
   OnShow = FormShow
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 16
   object lblnis: TLabel
-    Left = 24
-    Top = 16
-    Width = 92
-    Height = 19
-    Caption = 'USERNAME :'
+    Left = 30
+    Top = 20
+    Width = 78
+    Height = 21
+    Caption = 'Username'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblnisn: TLabel
-    Left = 24
-    Top = 48
-    Width = 92
-    Height = 19
-    Caption = 'PASSWORD :'
+    Left = 30
+    Top = 59
+    Width = 72
+    Height = 21
+    Caption = 'Password'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblnama: TLabel
-    Left = 24
-    Top = 80
-    Width = 47
-    Height = 19
-    Caption = 'LEVEL'
+    Left = 30
+    Top = 98
+    Width = 40
+    Height = 21
+    Caption = 'Level'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblnik: TLabel
-    Left = 24
-    Top = 112
-    Width = 55
-    Height = 19
-    Caption = 'STATUS'
+    Left = 30
+    Top = 138
+    Width = 49
+    Height = 21
+    Caption = 'Status'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lbltanggallahir: TLabel
-    Left = 336
-    Top = 16
-    Width = 96
-    Height = 19
-    Caption = 'CREATED AT :'
+    Left = 30
+    Top = 180
+    Width = 89
+    Height = 21
+    Caption = 'Created at'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
-    Font.Style = []
-    ParentFont = False
-  end
-  object lbljk: TLabel
-    Left = 336
-    Top = 48
-    Width = 4
-    Height = 19
-    Caption = ' '
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lbl1: TLabel
-    Left = 336
-    Top = 48
-    Width = 138
-    Height = 19
-    Caption = 'CREATED USER ID :'
+    Left = 30
+    Top = 219
+    Width = 120
+    Height = 21
+    Caption = 'Created UserID'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label1: TLabel
+    Left = 30
+    Top = 251
+    Width = 114
+    Height = 21
+    Caption = 'Update UserID'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object Edtusername: TEdit
-    Left = 160
-    Top = 16
-    Width = 153
-    Height = 21
+    Left = 221
+    Top = 20
+    Width = 324
+    Height = 24
     TabOrder = 0
   end
   object Edtpassword: TEdit
-    Left = 160
-    Top = 48
-    Width = 153
-    Height = 21
+    Left = 221
+    Top = 59
+    Width = 324
+    Height = 24
     TabOrder = 1
   end
   object bbaru: TButton
-    Left = 24
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 150
+    Top = 285
+    Width = 129
+    Height = 50
     Caption = 'BARU'
     TabOrder = 2
     OnClick = bbaruClick
   end
   object bsimpan: TButton
-    Left = 152
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 307
+    Top = 285
+    Width = 129
+    Height = 50
     Caption = 'SIMPAN'
     TabOrder = 3
     OnClick = bsimpanClick
   end
   object bedit: TButton
-    Left = 280
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 465
+    Top = 285
+    Width = 129
+    Height = 50
     Caption = 'EDIT'
     TabOrder = 4
     OnClick = beditClick
   end
   object bhapus: TButton
-    Left = 408
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 622
+    Top = 285
+    Width = 129
+    Height = 50
     Caption = 'HAPUS'
     TabOrder = 5
     OnClick = bhapusClick
   end
   object bbatal: TButton
-    Left = 536
-    Top = 160
-    Width = 105
-    Height = 41
+    Left = 780
+    Top = 285
+    Width = 129
+    Height = 50
     Caption = 'BATAL'
     TabOrder = 6
     OnClick = bbatalClick
   end
   object dbgrd1: TDBGrid
-    Left = 24
-    Top = 208
-    Width = 617
-    Height = 209
+    Left = 62
+    Top = 344
+    Width = 955
+    Height = 257
     DataSource = ds1
     TabOrder = 7
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
+    TitleFont.Name = 'Century Gothic'
     TitleFont.Style = []
     OnCellClick = dbgrd1CellClick
   end
   object dtp1: TDateTimePicker
-    Left = 488
-    Top = 16
-    Width = 186
+    Left = 217
+    Top = 180
+    Width = 324
     Height = 21
     Date = 45098.923362662030000000
     Time = 45098.923362662030000000
     TabOrder = 8
   end
   object dtp2: TDateTimePicker
-    Left = 488
-    Top = 48
-    Width = 186
+    Left = 217
+    Top = 251
+    Width = 324
     Height = 21
     Date = 45098.923362662030000000
     Time = 45098.923362662030000000
     TabOrder = 9
   end
   object cbblevel: TComboBox
-    Left = 160
-    Top = 80
-    Width = 153
-    Height = 21
-    ItemHeight = 13
+    Left = 221
+    Top = 98
+    Width = 324
+    Height = 24
+    ItemHeight = 16
     TabOrder = 10
     Text = '---- Pilih ---'
     Items.Strings = (
@@ -209,11 +209,11 @@ object FUser: TFUser
       'Admin')
   end
   object cbbstatus: TComboBox
-    Left = 160
-    Top = 112
-    Width = 153
-    Height = 21
-    ItemHeight = 13
+    Left = 221
+    Top = 138
+    Width = 324
+    Height = 24
+    ItemHeight = 16
     TabOrder = 11
     Text = '--- Pilih ---'
     Items.Strings = (
@@ -222,13 +222,20 @@ object FUser: TFUser
       'Ortu')
   end
   object Cetak: TButton
-    Left = 536
-    Top = 128
-    Width = 75
-    Height = 25
+    Left = 4
+    Top = 424
+    Width = 53
+    Height = 89
     Caption = 'Cetak'
     TabOrder = 12
     OnClick = CetakClick
+  end
+  object Edit1: TEdit
+    Left = 221
+    Top = 216
+    Width = 324
+    Height = 25
+    TabOrder = 13
   end
   object ZQuery1: TZQuery
     Connection = DataModule1.ZConnection1
@@ -236,13 +243,13 @@ object FUser: TFUser
     SQL.Strings = (
       'select * from user')
     Params = <>
-    Left = 176
-    Top = 248
+    Left = 72
+    Top = 528
   end
   object ds1: TDataSource
     DataSet = ZQuery1
-    Left = 240
-    Top = 256
+    Left = 72
+    Top = 560
   end
   object frxuser: TfrxReport
     Version = '4.12.6'
@@ -259,8 +266,8 @@ object FUser: TFUser
       'begin'
       ''
       'end.')
-    Left = 504
-    Top = 240
+    Left = 104
+    Top = 528
     Datasets = <
       item
         DataSet = frxDBDataset1
@@ -709,7 +716,7 @@ object FUser: TFUser
     CloseDataSource = False
     DataSet = ZQuery1
     BCDToCurrency = False
-    Left = 568
-    Top = 240
+    Left = 104
+    Top = 560
   end
 end

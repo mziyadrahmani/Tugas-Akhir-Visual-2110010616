@@ -3,11 +3,15 @@ unit Poin;
 interface
 
 uses
-  
+Windows, Messages  , SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, DB,
+  frxClass, frxDBSet, ZAbstractDataset, ZDataset,
+  ComCtrls, StdCtrls, Grids, DBGrids,
+  ZAbstractConnection, ZConnection,
+  ZAbstractRODataset
+  ;  
 
-type, frxClass, frxDBSet, DB,
-  ZAbstractRODataset, ZAbstractDataset, ZDataset, Controls, StdCtrls,
-  Grids, DBGrids, Classes
+type
   TFPoin = class(TForm)
     lblnamapoin: TLabel;
     lblbobot: TLabel;

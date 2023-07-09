@@ -1,199 +1,271 @@
 object FHubungan: TFHubungan
-  Left = 261
-  Top = 196
-  Width = 800
-  Height = 539
+  Left = 241
+  Top = 109
+  Width = 1041
+  Height = 737
   Caption = 'Hubungan'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
-  Font.Name = 'Tahoma'
+  Font.Name = 'Century Gothic'
   Font.Style = []
   OldCreateOrder = False
   OnShow = FormShow
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 16
   object lblsiswaid: TLabel
-    Left = 24
-    Top = 16
-    Width = 73
-    Height = 19
-    Caption = 'SISWA ID :'
+    Left = 30
+    Top = 20
+    Width = 67
+    Height = 21
+    Caption = 'Siswa ID '
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblortuid: TLabel
-    Left = 24
-    Top = 48
-    Width = 110
-    Height = 19
-    Caption = 'ORANG TUA ID'
+    Left = 30
+    Top = 59
+    Width = 100
+    Height = 21
+    Caption = 'Orangtua ID'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblstatushubanak: TLabel
-    Left = 24
-    Top = 80
-    Width = 204
-    Height = 19
-    Caption = 'STATUS HUBUNGAN ANAK :'
+    Left = 30
+    Top = 98
+    Width = 137
+    Height = 21
+    Caption = 'Status Hubungan'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lbljk: TLabel
-    Left = 336
-    Top = 48
-    Width = 4
-    Height = 19
+    Left = 414
+    Top = 59
+    Width = 6
+    Height = 23
     Caption = ' '
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Height = -20
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblstatusortu: TLabel
-    Left = 336
-    Top = 48
-    Width = 156
-    Height = 19
-    Caption = 'STATUS ORANG TUA :'
+    Left = 30
+    Top = 177
+    Width = 137
+    Height = 21
+    Caption = 'Status Orang Tua'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblket: TLabel
-    Left = 336
-    Top = 16
-    Width = 113
-    Height = 19
-    Caption = 'KETERANGAN :'
+    Left = 30
+    Top = 138
+    Width = 94
+    Height = 21
+    Caption = 'Keterangan'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
-    Font.Name = 'Times New Roman'
+    Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object bbaru: TButton
-    Left = 24
-    Top = 152
-    Width = 105
-    Height = 41
+    Left = 165
+    Top = 236
+    Width = 129
+    Height = 51
     Caption = 'BARU'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 0
     OnClick = bbaruClick
   end
   object bsimpan: TButton
-    Left = 152
-    Top = 152
-    Width = 105
-    Height = 41
+    Left = 322
+    Top = 236
+    Width = 130
+    Height = 51
     Caption = 'SIMPAN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 1
     OnClick = bsimpanClick
   end
   object bedit: TButton
-    Left = 280
-    Top = 152
-    Width = 105
-    Height = 41
+    Left = 480
+    Top = 236
+    Width = 129
+    Height = 51
     Caption = 'EDIT'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 2
     OnClick = beditClick
   end
   object bhapus: TButton
-    Left = 408
-    Top = 152
-    Width = 105
-    Height = 41
+    Left = 638
+    Top = 236
+    Width = 129
+    Height = 51
     Caption = 'HAPUS'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 3
     OnClick = bhapusClick
   end
   object bbatal: TButton
-    Left = 536
-    Top = 152
-    Width = 105
-    Height = 41
+    Left = 795
+    Top = 236
+    Width = 129
+    Height = 51
     Caption = 'BATAL'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 4
     OnClick = bbatalClick
   end
   object dbgrd1: TDBGrid
-    Left = 24
-    Top = 200
-    Width = 617
-    Height = 297
+    Left = 69
+    Top = 315
+    Width = 916
+    Height = 366
     DataSource = ds1
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 5
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
-    TitleFont.Name = 'Tahoma'
+    TitleFont.Name = 'Century Gothic'
     TitleFont.Style = []
     OnCellClick = dbgrd1CellClick
   end
   object Edtstatushubanak: TEdit
-    Left = 248
-    Top = 80
-    Width = 153
-    Height = 21
+    Left = 305
+    Top = 98
+    Width = 672
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 6
   end
   object Edtket: TEdit
-    Left = 560
-    Top = 16
-    Width = 153
-    Height = 21
+    Left = 305
+    Top = 138
+    Width = 672
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 7
   end
   object Edtstatusortu: TEdit
-    Left = 560
-    Top = 48
-    Width = 153
-    Height = 21
+    Left = 305
+    Top = 177
+    Width = 672
+    Height = 24
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 8
   end
   object cbbsiswaid: TComboBox
-    Left = 152
-    Top = 16
-    Width = 161
-    Height = 21
-    ItemHeight = 13
+    Left = 305
+    Top = 20
+    Width = 672
+    Height = 25
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ItemHeight = 17
+    ParentFont = False
     TabOrder = 9
   end
   object cbbortuid: TComboBox
-    Left = 152
-    Top = 48
-    Width = 161
-    Height = 21
-    ItemHeight = 13
+    Left = 305
+    Top = 59
+    Width = 672
+    Height = 25
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ItemHeight = 17
+    ParentFont = False
     TabOrder = 10
   end
   object Cetak: TButton
-    Left = 536
-    Top = 120
-    Width = 75
-    Height = 25
+    Left = 10
+    Top = 443
+    Width = 50
+    Height = 100
     Caption = 'Cetak'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Century Gothic'
+    Font.Style = []
+    ParentFont = False
     TabOrder = 11
     OnClick = CetakClick
   end
@@ -205,13 +277,13 @@ object FHubungan: TFHubungan
     Params = <>
     Properties.Strings = (
       'select * from hubungan')
-    Left = 672
-    Top = 384
+    Left = 80
+    Top = 648
   end
   object ds1: TDataSource
     DataSet = ZQuery1
-    Left = 680
-    Top = 320
+    Left = 80
+    Top = 608
   end
   object frxhubungan: TfrxReport
     Version = '4.12.6'
@@ -228,8 +300,8 @@ object FHubungan: TFHubungan
       'begin'
       ''
       'end.')
-    Left = 688
-    Top = 208
+    Left = 112
+    Top = 608
     Datasets = <
       item
         DataSet = frxDBDataset1
@@ -571,7 +643,7 @@ object FHubungan: TFHubungan
     CloseDataSource = False
     DataSet = ZQuery1
     BCDToCurrency = False
-    Left = 688
-    Top = 256
+    Left = 112
+    Top = 648
   end
 end
