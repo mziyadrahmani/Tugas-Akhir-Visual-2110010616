@@ -1,6 +1,6 @@
 object MenuUtama: TMenuUtama
-  Left = 199
-  Top = 154
+  Left = 588
+  Top = 218
   Width = 480
   Height = 541
   Caption = 'Main Menu'
@@ -13,7 +13,7 @@ object MenuUtama: TMenuUtama
   Menu = mm1
   OldCreateOrder = False
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 16
   object mm1: TMainMenu
     Left = 32
     Top = 16

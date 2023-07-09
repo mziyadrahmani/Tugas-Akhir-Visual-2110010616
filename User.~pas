@@ -16,7 +16,6 @@ type
     lblnama: TLabel;
     lblnik: TLabel;
     lbltanggallahir: TLabel;
-    lbljk: TLabel;
     Edtusername: TEdit;
     Edtpassword: TEdit;
     bbaru: TButton;

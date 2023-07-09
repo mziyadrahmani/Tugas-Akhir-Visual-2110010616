@@ -92,19 +92,6 @@ object FUser: TFUser
     Font.Style = []
     ParentFont = False
   end
-  object Label1: TLabel
-    Left = 30
-    Top = 251
-    Width = 114
-    Height = 21
-    Caption = 'Update UserID'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -16
-    Font.Name = 'Century Gothic'
-    Font.Style = []
-    ParentFont = False
-  end
   object Edtusername: TEdit
     Left = 221
     Top = 20
@@ -121,7 +108,7 @@ object FUser: TFUser
   end
   object bbaru: TButton
     Left = 150
-    Top = 285
+    Top = 253
     Width = 129
     Height = 50
     Caption = 'BARU'
@@ -130,7 +117,7 @@ object FUser: TFUser
   end
   object bsimpan: TButton
     Left = 307
-    Top = 285
+    Top = 253
     Width = 129
     Height = 50
     Caption = 'SIMPAN'
@@ -139,7 +126,7 @@ object FUser: TFUser
   end
   object bedit: TButton
     Left = 465
-    Top = 285
+    Top = 253
     Width = 129
     Height = 50
     Caption = 'EDIT'
@@ -148,7 +135,7 @@ object FUser: TFUser
   end
   object bhapus: TButton
     Left = 622
-    Top = 285
+    Top = 253
     Width = 129
     Height = 50
     Caption = 'HAPUS'
@@ -157,7 +144,7 @@ object FUser: TFUser
   end
   object bbatal: TButton
     Left = 780
-    Top = 285
+    Top = 253
     Width = 129
     Height = 50
     Caption = 'BATAL'
@@ -166,9 +153,9 @@ object FUser: TFUser
   end
   object dbgrd1: TDBGrid
     Left = 62
-    Top = 344
-    Width = 955
-    Height = 257
+    Top = 312
+    Width = 963
+    Height = 281
     DataSource = ds1
     TabOrder = 7
     TitleFont.Charset = DEFAULT_CHARSET
@@ -189,7 +176,7 @@ object FUser: TFUser
   end
   object dtp2: TDateTimePicker
     Left = 217
-    Top = 251
+    Top = 219
     Width = 324
     Height = 21
     Date = 45098.923362662030000000
@@ -223,19 +210,12 @@ object FUser: TFUser
   end
   object Cetak: TButton
     Left = 4
-    Top = 424
+    Top = 392
     Width = 53
     Height = 89
     Caption = 'Cetak'
     TabOrder = 12
     OnClick = CetakClick
-  end
-  object Edit1: TEdit
-    Left = 221
-    Top = 216
-    Width = 324
-    Height = 25
-    TabOrder = 13
   end
   object ZQuery1: TZQuery
     Connection = DataModule1.ZConnection1
@@ -244,12 +224,12 @@ object FUser: TFUser
       'select * from user')
     Params = <>
     Left = 72
-    Top = 528
+    Top = 496
   end
   object ds1: TDataSource
     DataSet = ZQuery1
     Left = 72
-    Top = 560
+    Top = 520
   end
   object frxuser: TfrxReport
     Version = '4.12.6'
@@ -267,7 +247,7 @@ object FUser: TFUser
       ''
       'end.')
     Left = 104
-    Top = 528
+    Top = 496
     Datasets = <
       item
         DataSet = frxDBDataset1
@@ -717,6 +697,6 @@ object FUser: TFUser
     DataSet = ZQuery1
     BCDToCurrency = False
     Left = 104
-    Top = 560
+    Top = 520
   end
 end

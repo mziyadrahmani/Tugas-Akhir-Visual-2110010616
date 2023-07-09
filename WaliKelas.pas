@@ -61,6 +61,8 @@ var
 
 implementation
 
+uses Unit1;
+
 {$R *.dfm}
 
 { TFormWaliKelas }
@@ -215,7 +217,7 @@ begin
     keawal;
   end else
   begin
-    id:=dbgrd1.DataSource.DataSet.FieldByName('id').AsString;
+  id:=dbgrd1.DataSource.DataSet.FieldByName('id').AsString;
   ShowMessage('DATA BERHASIL DI UPDATE!');
   ZQuery1.SQL.Clear;
   ZQuery1.SQL.Add('Update wali_kelas set nik="'+Edtnik.Text+'", nama="'+Edtnama.Text+'", nama="'+Edtnama.Text+'", jk="'+cbbjk.Text+'", pendidikan="'+Edtpendidikan.Text+'", telp="'+Edttelp.Text+'", matpel="'+Edtmapel.Text+'", alamat="'+Edtalamat.Text+'", status="'+cbbstatus.Text+'" where id="'+id+'"');

@@ -1,8 +1,8 @@
 object FWaliKelas: TFWaliKelas
-  Left = 310
-  Top = 244
-  Width = 671
-  Height = 540
+  Left = 312
+  Top = 49
+  Width = 897
+  Height = 731
   Caption = 'Wali Kelas'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,13 +13,13 @@ object FWaliKelas: TFWaliKelas
   OldCreateOrder = False
   OnShow = FormShow
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 16
   object lblnis: TLabel
-    Left = 24
-    Top = 16
-    Width = 36
-    Height = 19
-    Caption = 'NIK :'
+    Left = 30
+    Top = 20
+    Width = 26
+    Height = 21
+    Caption = 'NIK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -28,11 +28,11 @@ object FWaliKelas: TFWaliKelas
     ParentFont = False
   end
   object lblnisn: TLabel
-    Left = 24
-    Top = 48
-    Width = 54
-    Height = 19
-    Caption = 'NAMA :'
+    Left = 30
+    Top = 59
+    Width = 49
+    Height = 21
+    Caption = 'Nama'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -41,11 +41,11 @@ object FWaliKelas: TFWaliKelas
     ParentFont = False
   end
   object lblnama: TLabel
-    Left = 24
-    Top = 80
-    Width = 124
-    Height = 19
-    Caption = 'JENIS KELAMIN :'
+    Left = 30
+    Top = 98
+    Width = 102
+    Height = 21
+    Caption = 'Jenis Kelamin'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -54,11 +54,11 @@ object FWaliKelas: TFWaliKelas
     ParentFont = False
   end
   object lblnik: TLabel
-    Left = 24
-    Top = 112
-    Width = 104
-    Height = 19
-    Caption = 'PENDIDIKAN :'
+    Left = 30
+    Top = 138
+    Width = 86
+    Height = 21
+    Caption = 'Pendidikan'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -67,11 +67,11 @@ object FWaliKelas: TFWaliKelas
     ParentFont = False
   end
   object lbltanggallahir: TLabel
-    Left = 336
-    Top = 16
-    Width = 42
-    Height = 19
-    Caption = 'TELP :'
+    Left = 30
+    Top = 180
+    Width = 62
+    Height = 21
+    Caption = 'Telepon'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -80,24 +80,24 @@ object FWaliKelas: TFWaliKelas
     ParentFont = False
   end
   object lbljk: TLabel
-    Left = 336
-    Top = 48
-    Width = 4
-    Height = 19
+    Left = 414
+    Top = 59
+    Width = 628
+    Height = 23
     Caption = ' '
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
-    Font.Height = -16
+    Font.Height = -20
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
   end
   object lblalamat: TLabel
-    Left = 336
-    Top = 80
-    Width = 70
-    Height = 19
-    Caption = 'ALAMAT :'
+    Left = 30
+    Top = 258
+    Width = 60
+    Height = 21
+    Caption = 'Alamat'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -106,11 +106,11 @@ object FWaliKelas: TFWaliKelas
     ParentFont = False
   end
   object lbltelp: TLabel
-    Left = 336
-    Top = 112
-    Width = 62
-    Height = 19
-    Caption = 'STATUS :'
+    Left = 30
+    Top = 298
+    Width = 49
+    Height = 21
+    Caption = 'Status'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -119,11 +119,11 @@ object FWaliKelas: TFWaliKelas
     ParentFont = False
   end
   object lbl1: TLabel
-    Left = 336
-    Top = 48
-    Width = 140
-    Height = 19
-    Caption = 'MATA PELAJARAN :'
+    Left = 30
+    Top = 219
+    Width = 121
+    Height = 21
+    Caption = 'Mata Pelajaran'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -132,76 +132,76 @@ object FWaliKelas: TFWaliKelas
     ParentFont = False
   end
   object Edtnik: TEdit
-    Left = 160
-    Top = 16
-    Width = 153
-    Height = 21
+    Left = 221
+    Top = 20
+    Width = 628
+    Height = 24
     TabOrder = 0
   end
   object Edtnama: TEdit
-    Left = 160
-    Top = 48
-    Width = 153
-    Height = 21
+    Left = 221
+    Top = 59
+    Width = 628
+    Height = 24
     TabOrder = 1
   end
   object Edtpendidikan: TEdit
-    Left = 160
-    Top = 112
-    Width = 153
-    Height = 21
+    Left = 221
+    Top = 138
+    Width = 628
+    Height = 24
     TabOrder = 2
   end
   object bbaru: TButton
-    Left = 16
-    Top = 200
-    Width = 105
-    Height = 41
+    Left = 52
+    Top = 342
+    Width = 129
+    Height = 51
     Caption = 'BARU'
     TabOrder = 3
     OnClick = bbaruClick
   end
   object bsimpan: TButton
-    Left = 144
-    Top = 200
-    Width = 105
-    Height = 41
+    Left = 209
+    Top = 342
+    Width = 129
+    Height = 51
     Caption = 'SIMPAN'
     TabOrder = 4
     OnClick = bsimpanClick
   end
   object bedit: TButton
-    Left = 272
-    Top = 200
-    Width = 105
-    Height = 41
+    Left = 367
+    Top = 342
+    Width = 129
+    Height = 51
     Caption = 'EDIT'
     TabOrder = 5
     OnClick = beditClick
   end
   object bhapus: TButton
-    Left = 400
-    Top = 200
-    Width = 105
-    Height = 41
+    Left = 524
+    Top = 342
+    Width = 130
+    Height = 51
     Caption = 'HAPUS'
     TabOrder = 6
     OnClick = bhapusClick
   end
   object bbatal: TButton
-    Left = 528
-    Top = 200
-    Width = 105
-    Height = 41
+    Left = 682
+    Top = 342
+    Width = 129
+    Height = 51
     Caption = 'BATAL'
     TabOrder = 7
     OnClick = bbatalClick
   end
   object dbgrd1: TDBGrid
-    Left = 16
-    Top = 248
-    Width = 617
-    Height = 209
+    Left = 68
+    Top = 409
+    Width = 789
+    Height = 257
     DataSource = ds1
     TabOrder = 8
     TitleFont.Charset = DEFAULT_CHARSET
@@ -212,32 +212,32 @@ object FWaliKelas: TFWaliKelas
     OnCellClick = dbgrd1CellClick
   end
   object Edttelp: TEdit
-    Left = 488
-    Top = 16
-    Width = 153
-    Height = 21
+    Left = 217
+    Top = 180
+    Width = 628
+    Height = 24
     TabOrder = 9
   end
   object Edtmapel: TEdit
-    Left = 488
-    Top = 48
-    Width = 153
-    Height = 21
+    Left = 217
+    Top = 219
+    Width = 628
+    Height = 24
     TabOrder = 10
   end
   object Edtalamat: TEdit
-    Left = 488
-    Top = 80
-    Width = 153
-    Height = 21
+    Left = 217
+    Top = 258
+    Width = 628
+    Height = 24
     TabOrder = 11
   end
   object cbbjk: TComboBox
-    Left = 160
-    Top = 80
-    Width = 153
-    Height = 21
-    ItemHeight = 13
+    Left = 221
+    Top = 98
+    Width = 628
+    Height = 24
+    ItemHeight = 16
     TabOrder = 12
     Text = '--- Pilih ---'
     Items.Strings = (
@@ -245,11 +245,11 @@ object FWaliKelas: TFWaliKelas
       'L')
   end
   object cbbstatus: TComboBox
-    Left = 488
-    Top = 112
-    Width = 153
-    Height = 21
-    ItemHeight = 13
+    Left = 217
+    Top = 298
+    Width = 628
+    Height = 24
+    ItemHeight = 16
     TabOrder = 13
     Text = '--- Pilih ---'
     Items.Strings = (
@@ -257,25 +257,27 @@ object FWaliKelas: TFWaliKelas
       'TU')
   end
   object Cetak: TButton
-    Left = 528
-    Top = 168
-    Width = 75
-    Height = 25
+    Left = 10
+    Top = 504
+    Width = 47
+    Height = 81
     Caption = 'Cetak'
     TabOrder = 14
     OnClick = CetakClick
   end
   object ZQuery1: TZQuery
+    Connection = DataModule1.ZConnection1
+    Active = True
     SQL.Strings = (
       'select*from wali_kelas')
     Params = <>
-    Left = 120
-    Top = 296
+    Left = 64
+    Top = 592
   end
   object ds1: TDataSource
     DataSet = ZQuery1
-    Left = 152
-    Top = 296
+    Left = 96
+    Top = 592
   end
   object frxwalikelas: TfrxReport
     Version = '4.12.6'
@@ -292,8 +294,8 @@ object FWaliKelas: TFWaliKelas
       'begin'
       ''
       'end.')
-    Left = 480
-    Top = 296
+    Left = 64
+    Top = 624
     Datasets = <
       item
         DataSet = frxDBDataset1
@@ -756,7 +758,7 @@ object FWaliKelas: TFWaliKelas
     CloseDataSource = False
     DataSet = ZQuery1
     BCDToCurrency = False
-    Left = 528
-    Top = 296
+    Left = 96
+    Top = 624
   end
 end

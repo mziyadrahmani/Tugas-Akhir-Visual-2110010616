@@ -4,9 +4,9 @@ interface
 
 uses
   Windows, Messages  , SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, ZAbstractConnection, ZConnection, DB, ,
-  ZAbstractDataset, ZDataset, ComCtrls, Grids, DBGrids, StdCtrls, frxClass,
-  frxDBSet;
+  Dialogs, ZAbstractConnection, ZConnection, DB,
+  frxClass, frxDBSet, ZAbstractRODataset, ZAbstractDataset, ZDataset,
+  StdCtrls, Grids, DBGrids;
 
 type
   TFWaliKelas = class(TForm)
@@ -60,6 +60,8 @@ var
   id : String;
 
 implementation
+
+uses Unit1;
 
 {$R *.dfm}
 

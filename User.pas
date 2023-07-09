@@ -34,8 +34,6 @@ type
     frxuser: TfrxReport;
     frxDBDataset1: TfrxDBDataset;
     Cetak: TButton;
-    Label1: TLabel;
-    Edit1: TEdit;
     procedure keawal;
     procedure edtbersih;
     procedure edtenable;

@@ -3,7 +3,7 @@ object MenuUtama: TMenuUtama
   Top = 154
   Width = 480
   Height = 541
-  Caption = 'MENU UTAMA'
+  Caption = 'Main Menu'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -18,41 +18,40 @@ object MenuUtama: TMenuUtama
     Left = 32
     Top = 16
     object OPEN1: TMenuItem
-      Caption = 'OPEN'
+      Caption = 'Menu Form'
       object SISWA1: TMenuItem
-        Caption = 'SISWA'
+        Caption = 'Siswa'
         OnClick = SISWA1Click
       end
       object ORANGTUA1: TMenuItem
-        Caption = 'ORANG TUA'
+        Caption = 'Orangtua'
         OnClick = ORANGTUA1Click
       end
       object STATUSHUBUNGAN1: TMenuItem
-        Caption = 'STATUS HUBUNGAN'
+        Caption = 'Hubungan'
         OnClick = STATUSHUBUNGAN1Click
       end
       object USER1: TMenuItem
-        Caption = 'USER'
+        Caption = 'User'
         OnClick = USER1Click
       end
       object KELAS1: TMenuItem
-        Caption = 'KELAS'
+        Caption = 'Kelas'
         OnClick = KELAS1Click
       end
       object POIN1: TMenuItem
-        Caption = 'POIN'
+        Caption = 'Poin'
         OnClick = POIN1Click
       end
       object SEMESTER1: TMenuItem
-        Caption = 'SEMESTER'
+        Caption = 'Semester'
         OnClick = SEMESTER1Click
       end
       object WALIKELAS1: TMenuItem
-        Caption = 'WALI KELAS'
+        Caption = 'Wali Kelas'
         OnClick = WALIKELAS1Click
       end
       object CLOSE1: TMenuItem
-        Caption = 'CLOSE'
         OnClick = CLOSE1Click
       end
     end
