@@ -1,6 +1,6 @@
 object FOrtu: TFOrtu
-  Left = 326
-  Top = 42
+  Left = 245
+  Top = 48
   Width = 1155
   Height = 795
   Caption = 'Orangtua'
@@ -326,7 +326,7 @@ object FOrtu: TFOrtu
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45103.376325289400000000
-    ReportOptions.LastChange = 45110.875766006900000000
+    ReportOptions.LastChange = 45117.640012743050000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -359,8 +359,8 @@ object FOrtu: TFOrtu
         Top = 18.897650000000000000
         Width = 980.410082000000000000
         object Memo1: TfrxMemoView
-          Left = 192.756030000000000000
-          Top = 3.779530000000000000
+          Left = 308.210575450000000000
+          Top = 4.688620910000000000
           Width = 343.937230000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -385,16 +385,16 @@ object FOrtu: TFOrtu
           Width = 34.015770000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NO')
+            'No')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -403,13 +403,13 @@ object FOrtu: TFOrtu
           Width = 105.826840000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'NIK')
@@ -421,16 +421,16 @@ object FOrtu: TFOrtu
           Width = 120.944960000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NAMA')
+            'Nama')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -439,16 +439,16 @@ object FOrtu: TFOrtu
           Width = 90.708720000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'PENDIDIKAN')
+            'Pendidikan')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -457,16 +457,16 @@ object FOrtu: TFOrtu
           Width = 120.944960000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'PEKERJAAN')
+            'Pekerjaan')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -475,52 +475,52 @@ object FOrtu: TFOrtu
           Width = 120.944960000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'TELP')
+            'Telepon')
           ParentFont = False
           VAlign = vaCenter
         end
         object Memo8: TfrxMemoView
           Left = 604.724800000000000000
-          Width = 120.944960000000000000
+          Width = 103.672232730000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'ALAMAT')
+            'Alamat')
           ParentFont = False
           VAlign = vaCenter
         end
         object Memo9: TfrxMemoView
-          Left = 725.669760000000000000
-          Width = 41.574830000000000000
+          Left = 708.397032730000000000
+          Width = 58.847557270000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'JK')
+            'Jenis Kelamin')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -529,16 +529,16 @@ object FOrtu: TFOrtu
           Width = 94.488250000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'AGAMA')
+            'Agama')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -547,16 +547,16 @@ object FOrtu: TFOrtu
           Width = 94.488250000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'KET')
+            'Keterangan')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -579,7 +579,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[Line]')
@@ -600,7 +599,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nik"]')
@@ -621,7 +619,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nama"]')
@@ -642,7 +639,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."pendidikan"]')
@@ -663,7 +659,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."pekerjaan"]')
@@ -684,7 +679,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."telp"]')
@@ -693,7 +687,7 @@ object FOrtu: TFOrtu
         end
         object Memo18: TfrxMemoView
           Left = 604.724800000000000000
-          Width = 120.944960000000000000
+          Width = 103.672232730000000000
           Height = 37.795275590000000000
           ShowHint = False
           DataField = 'alamat'
@@ -705,7 +699,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."alamat"]')
@@ -713,8 +706,8 @@ object FOrtu: TFOrtu
           VAlign = vaCenter
         end
         object Memo19: TfrxMemoView
-          Left = 725.669760000000000000
-          Width = 41.574830000000000000
+          Left = 708.397032730000000000
+          Width = 58.847557270000000000
           Height = 37.795275590000000000
           ShowHint = False
           DataField = 'jk'
@@ -726,7 +719,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."jk"]')
@@ -747,7 +739,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."agama"]')
@@ -768,7 +759,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."is_active"]')
@@ -781,9 +771,9 @@ object FOrtu: TFOrtu
         Top = 234.330860000000000000
         Width = 980.410082000000000000
         object Memo22: TfrxMemoView
-          Left = 737.008350000000000000
+          Left = 650.079160000000000000
           Top = 3.779530000000000000
-          Width = 154.960730000000000000
+          Width = 241.889920000000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
@@ -792,7 +782,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'Jumlah Data Orang Tua :')
@@ -811,7 +800,6 @@ object FOrtu: TFOrtu
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[COUNT(MasterData1)]')

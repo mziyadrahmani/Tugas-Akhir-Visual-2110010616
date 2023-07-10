@@ -240,7 +240,7 @@ object FUser: TFUser
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45101.895072129600000000
-    ReportOptions.LastChange = 45101.913767627300000000
+    ReportOptions.LastChange = 45117.648296250000000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -273,8 +273,8 @@ object FUser: TFUser
         Top = 18.897650000000000000
         Width = 980.410082000000000000
         object Memo19: TfrxMemoView
-          Left = 249.448980000000000000
-          Top = 7.559060000000000000
+          Left = 269.448980000000000000
+          Top = 9.559060000000000000
           Width = 449.764070000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -286,7 +286,7 @@ object FUser: TFUser
           Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'LAPORAN PENGGUNA (USER DAN ADMIN)')
+            'LAPORAN USER')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -300,16 +300,16 @@ object FUser: TFUser
           Width = 37.795300000000000000
           Height = 30.236240000000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NO')
+            'No')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -318,16 +318,16 @@ object FUser: TFUser
           Width = 109.606370000000000000
           Height = 30.236240000000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'USERNAME')
+            'Username')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -336,16 +336,16 @@ object FUser: TFUser
           Width = 109.606370000000000000
           Height = 30.236240000000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'PASSWORD')
+            'Password')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -354,16 +354,16 @@ object FUser: TFUser
           Width = 83.149660000000000000
           Height = 30.236240000000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'LEVEL')
+            'Level')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -372,16 +372,16 @@ object FUser: TFUser
           Width = 86.929190000000000000
           Height = 30.236240000000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'STATUS')
+            'Status')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -390,16 +390,16 @@ object FUser: TFUser
           Width = 132.283550000000000000
           Height = 30.236240000000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'CREATED AT')
+            'Created at')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -408,16 +408,16 @@ object FUser: TFUser
           Width = 136.063080000000000000
           Height = 30.236240000000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'CREATED USER ID')
+            'Created User ID')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -426,16 +426,16 @@ object FUser: TFUser
           Width = 139.842610000000000000
           Height = 30.236240000000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'UPDATED AT')
+            'Update At')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -444,16 +444,16 @@ object FUser: TFUser
           Width = 136.063080000000000000
           Height = 30.236240000000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'UPDATED USER ID')
+            'Updated User ID')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -478,7 +478,6 @@ object FUser: TFUser
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[Line]')
@@ -499,7 +498,6 @@ object FUser: TFUser
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."username"]')
@@ -520,7 +518,6 @@ object FUser: TFUser
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."password"]')
@@ -541,7 +538,6 @@ object FUser: TFUser
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."level"]')
@@ -562,7 +558,6 @@ object FUser: TFUser
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."status"]')
@@ -583,7 +578,6 @@ object FUser: TFUser
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."created_at"]')
@@ -604,7 +598,6 @@ object FUser: TFUser
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."created_userid"]')
@@ -625,7 +618,6 @@ object FUser: TFUser
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."updated_at"]')
@@ -646,7 +638,6 @@ object FUser: TFUser
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."updated_userid"]')

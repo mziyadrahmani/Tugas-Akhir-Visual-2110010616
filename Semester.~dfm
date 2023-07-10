@@ -17,9 +17,9 @@ object FSemester: TFSemester
   object lblsiswaid: TLabel
     Left = 30
     Top = 20
-    Width = 78
+    Width = 63
     Height = 21
-    Caption = 'SISWA ID :'
+    Caption = 'Siswa ID'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -30,9 +30,9 @@ object FSemester: TFSemester
   object lblpoinid: TLabel
     Left = 30
     Top = 59
-    Width = 69
+    Width = 53
     Height = 21
-    Caption = 'POIN ID :'
+    Caption = 'Poin ID'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -43,9 +43,9 @@ object FSemester: TFSemester
   object lblwaliid: TLabel
     Left = 30
     Top = 98
-    Width = 69
+    Width = 53
     Height = 21
-    Caption = 'WALI ID :'
+    Caption = 'Wali ID'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -56,9 +56,9 @@ object FSemester: TFSemester
   object lblortuid: TLabel
     Left = 30
     Top = 138
-    Width = 72
+    Width = 57
     Height = 21
-    Caption = 'ORTU ID :'
+    Caption = 'Ortu ID'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -69,9 +69,9 @@ object FSemester: TFSemester
   object lblalamat: TLabel
     Left = 30
     Top = 180
-    Width = 89
+    Width = 65
     Height = 21
-    Caption = 'TANGGAL :'
+    Caption = 'Tanggal'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -82,9 +82,9 @@ object FSemester: TFSemester
   object lblsemester: TLabel
     Left = 30
     Top = 219
-    Width = 84
+    Width = 71
     Height = 21
-    Caption = 'SEMESTER :'
+    Caption = 'Semester'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -95,9 +95,9 @@ object FSemester: TFSemester
   object lblstatus: TLabel
     Left = 30
     Top = 258
-    Width = 64
+    Width = 49
     Height = 21
-    Caption = 'STATUS :'
+    Caption = 'Status'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16

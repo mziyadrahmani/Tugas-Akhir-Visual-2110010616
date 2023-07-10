@@ -1,6 +1,6 @@
 object FSiswa: TFSiswa
-  Left = 46
-  Top = 20
+  Left = 75
+  Top = 40
   Width = 1417
   Height = 817
   Caption = 'Siswa'
@@ -398,7 +398,7 @@ object FSiswa: TFSiswa
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45102.918584537000000000
-    ReportOptions.LastChange = 45102.929156111100000000
+    ReportOptions.LastChange = 45117.646722523100000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -431,7 +431,7 @@ object FSiswa: TFSiswa
         Top = 18.897650000000000000
         Width = 980.410082000000000000
         object Memo1: TfrxMemoView
-          Left = 393.071120000000000000
+          Left = 376.707483640000000000
           Top = 7.559060000000000000
           Width = 241.889920000000000000
           Height = 37.795300000000000000
@@ -451,35 +451,35 @@ object FSiswa: TFSiswa
         Top = 86.929190000000000000
         Width = 980.410082000000000000
         object Memo2: TfrxMemoView
-          Left = 3.779530000000000000
+          Left = -1.220470000000000000
           Width = 30.236240000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NO')
+            'No')
           ParentFont = False
           VAlign = vaCenter
         end
         object Memo3: TfrxMemoView
-          Left = 34.015770000000000000
+          Left = 29.015770000000000000
           Width = 71.811070000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'NIS')
@@ -487,17 +487,17 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo4: TfrxMemoView
-          Left = 105.826840000000000000
-          Width = 86.929190000000000000
+          Left = 100.826840000000000000
+          Width = 67.929190000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'NISN')
@@ -505,35 +505,35 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo5: TfrxMemoView
-          Left = 192.756030000000000000
+          Left = 168.756030000000000000
           Width = 109.606370000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NAMA')
+            'Nama')
           ParentFont = False
           VAlign = vaCenter
         end
         object Memo6: TfrxMemoView
-          Left = 302.362400000000000000
+          Left = 278.362400000000000000
           Width = 102.047310000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'NIK')
@@ -541,107 +541,107 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo7: TfrxMemoView
-          Left = 404.409710000000000000
+          Left = 380.409710000000000000
           Width = 105.826840000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'TEMPATLAHIR')
+            'Tempat Lahir')
           ParentFont = False
           VAlign = vaCenter
         end
         object Memo8: TfrxMemoView
-          Left = 510.236550000000000000
+          Left = 486.236550000000000000
           Width = 105.826840000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'TANGGALLAHIR')
+            'Tanggal Lahir')
           ParentFont = False
           VAlign = vaCenter
         end
         object Memo9: TfrxMemoView
-          Left = 616.063390000000000000
+          Left = 592.063390000000000000
           Width = 37.795300000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'JK')
+            'Jenis Kelamin')
           ParentFont = False
           VAlign = vaCenter
         end
         object Memo10: TfrxMemoView
-          Left = 653.858690000000000000
+          Left = 629.858690000000000000
           Width = 98.267780000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'ALAMAT')
+            'Alamat')
           ParentFont = False
           VAlign = vaCenter
         end
         object Memo11: TfrxMemoView
-          Left = 752.126470000000000000
+          Left = 728.126470000000000000
           Width = 94.488250000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'TELP')
+            'Telepon')
           ParentFont = False
           VAlign = vaCenter
         end
         object Memo12: TfrxMemoView
-          Left = 846.614720000000000000
+          Left = 822.614720000000000000
           Width = 94.488250000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'HP')
@@ -649,18 +649,20 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo13: TfrxMemoView
-          Left = 941.102970000000000000
-          Width = 34.015770000000000000
+          Left = 917.102970000000000000
+          Width = 61.015770000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -11
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
+          Memo.UTF8 = (
+            'Status')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -673,7 +675,7 @@ object FSiswa: TFSiswa
         DataSetName = 'frxDBDataset1'
         RowCount = 0
         object Memo26: TfrxMemoView
-          Left = 3.779530000000000000
+          Left = -1.220470000000000000
           Width = 30.236240000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -683,7 +685,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[Line]')
@@ -691,7 +692,7 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo27: TfrxMemoView
-          Left = 34.015770000000000000
+          Left = 29.015770000000000000
           Width = 71.811070000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -704,7 +705,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nis"]')
@@ -712,8 +712,8 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo28: TfrxMemoView
-          Left = 105.826840000000000000
-          Width = 86.929190000000000000
+          Left = 100.826840000000000000
+          Width = 67.929190000000000000
           Height = 37.795275590000000000
           ShowHint = False
           DataField = 'nisn'
@@ -725,7 +725,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nisn"]')
@@ -733,7 +732,7 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo29: TfrxMemoView
-          Left = 192.756030000000000000
+          Left = 168.756030000000000000
           Width = 109.606370000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -746,7 +745,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nama"]')
@@ -754,7 +752,7 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo30: TfrxMemoView
-          Left = 302.362400000000000000
+          Left = 278.362400000000000000
           Width = 102.047310000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -767,7 +765,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nik"]')
@@ -775,7 +772,7 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo31: TfrxMemoView
-          Left = 404.409710000000000000
+          Left = 380.409710000000000000
           Width = 105.826840000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -788,7 +785,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."tempat_lahir"]')
@@ -796,7 +792,7 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo32: TfrxMemoView
-          Left = 510.236550000000000000
+          Left = 486.236550000000000000
           Width = 105.826840000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -809,7 +805,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."tanggal_lahir"]')
@@ -817,7 +812,7 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo33: TfrxMemoView
-          Left = 616.063390000000000000
+          Left = 592.063390000000000000
           Width = 37.795300000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -830,7 +825,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."jk"]')
@@ -838,7 +832,7 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo34: TfrxMemoView
-          Left = 653.858690000000000000
+          Left = 629.858690000000000000
           Width = 98.267780000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -851,7 +845,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."alamat"]')
@@ -859,7 +852,7 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo35: TfrxMemoView
-          Left = 752.126470000000000000
+          Left = 728.126470000000000000
           Width = 94.488250000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -872,7 +865,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."telp"]')
@@ -880,7 +872,7 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo36: TfrxMemoView
-          Left = 846.614720000000000000
+          Left = 822.614720000000000000
           Width = 94.488250000000000000
           Height = 37.795275590000000000
           ShowHint = False
@@ -893,7 +885,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."hp"]')
@@ -901,8 +892,8 @@ object FSiswa: TFSiswa
           VAlign = vaCenter
         end
         object Memo37: TfrxMemoView
-          Left = 941.102970000000000000
-          Width = 34.015770000000000000
+          Left = 917.102970000000000000
+          Width = 61.015770000000000000
           Height = 37.795275590000000000
           ShowHint = False
           DataField = 'status'
@@ -914,7 +905,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."status"]')
@@ -938,7 +928,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'Jumlah Siswa :')
@@ -957,7 +946,6 @@ object FSiswa: TFSiswa
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[COUNT(MasterData1)]')

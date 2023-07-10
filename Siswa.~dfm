@@ -1,7 +1,7 @@
 object FSiswa: TFSiswa
-  Left = 262
-  Top = 21
-  Width = 1226
+  Left = 46
+  Top = 20
+  Width = 1417
   Height = 817
   Caption = 'Siswa'
   Color = clBtnFace
@@ -275,7 +275,7 @@ object FSiswa: TFSiswa
     TabOrder = 8
   end
   object bbaru: TButton
-    Left = 934
+    Left = 1062
     Top = 66
     Width = 129
     Height = 50
@@ -284,7 +284,7 @@ object FSiswa: TFSiswa
     OnClick = bbaruClick
   end
   object bsimpan: TButton
-    Left = 931
+    Left = 1059
     Top = 130
     Width = 129
     Height = 50
@@ -293,7 +293,7 @@ object FSiswa: TFSiswa
     OnClick = bsimpanClick
   end
   object bedit: TButton
-    Left = 929
+    Left = 1057
     Top = 194
     Width = 129
     Height = 50
@@ -302,7 +302,7 @@ object FSiswa: TFSiswa
     OnClick = beditClick
   end
   object bhapus: TButton
-    Left = 928
+    Left = 1056
     Top = 258
     Width = 137
     Height = 50
@@ -311,7 +311,7 @@ object FSiswa: TFSiswa
     OnClick = bhapusClick
   end
   object bbatal: TButton
-    Left = 928
+    Left = 1056
     Top = 322
     Width = 133
     Height = 50
@@ -322,7 +322,7 @@ object FSiswa: TFSiswa
   object dbgrd1: TDBGrid
     Left = 80
     Top = 469
-    Width = 1105
+    Width = 1313
     Height = 300
     DataSource = ds1
     TabOrder = 14

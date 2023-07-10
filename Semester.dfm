@@ -1,6 +1,6 @@
 object FSemester: TFSemester
-  Left = 299
-  Top = 39
+  Left = 350
+  Top = 73
   Width = 899
   Height = 731
   Caption = 'Semester'
@@ -251,7 +251,7 @@ object FSemester: TFSemester
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45103.942857881900000000
-    ReportOptions.LastChange = 45103.947872650500000000
+    ReportOptions.LastChange = 45117.642806122700000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -283,8 +283,8 @@ object FSemester: TFSemester
         Top = 18.897650000000000000
         Width = 740.409927000000000000
         object Memo1: TfrxMemoView
-          Left = 211.653680000000000000
-          Top = 7.559060000000000000
+          Left = 234.380952730000000000
+          Top = 9.377241820000000000
           Width = 275.905690000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -310,16 +310,16 @@ object FSemester: TFSemester
           Width = 45.354360000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NO')
+            'No')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -329,16 +329,16 @@ object FSemester: TFSemester
           Width = 68.031540000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'ID SISWA')
+            'Siswa ID')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -348,16 +348,16 @@ object FSemester: TFSemester
           Width = 68.031540000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'ID POIN')
+            'Poin ID')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -367,16 +367,16 @@ object FSemester: TFSemester
           Width = 68.031540000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'ID WALI')
+            'Wali ID')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -386,16 +386,16 @@ object FSemester: TFSemester
           Width = 68.031540000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'ID ORTU')
+            'Ortu ID')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -405,16 +405,16 @@ object FSemester: TFSemester
           Width = 102.047310000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'TANGGAL')
+            'Tanggal')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -424,16 +424,16 @@ object FSemester: TFSemester
           Width = 102.047310000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'SEMESTER')
+            'Semester')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -443,16 +443,16 @@ object FSemester: TFSemester
           Width = 102.047310000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'STATUS')
+            'Status')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -475,7 +475,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[Line]')
@@ -496,7 +495,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."siswa_id"]')
@@ -517,7 +515,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."poin_id"]')
@@ -538,7 +535,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."wali_id"]')
@@ -559,7 +555,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."ortu_id"]')
@@ -580,7 +575,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."tanggal"]')
@@ -601,7 +595,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."semester"]')
@@ -622,7 +615,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."status"]')
@@ -635,9 +627,9 @@ object FSemester: TFSemester
         Top = 249.448980000000000000
         Width = 740.409927000000000000
         object Memo18: TfrxMemoView
-          Left = 510.236550000000000000
+          Left = 452.963822730000000000
           Top = 15.118120000000000000
-          Width = 147.401670000000000000
+          Width = 204.674397270000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
@@ -646,7 +638,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'Jumlah Laporan Data :')
@@ -665,7 +656,6 @@ object FSemester: TFSemester
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[COUNT(MasterData1)]')

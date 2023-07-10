@@ -57,7 +57,7 @@ object FKelas: TFKelas
     Left = 217
     Top = 39
     Width = 572
-    Height = 24
+    Height = 25
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -70,7 +70,7 @@ object FKelas: TFKelas
     Left = 217
     Top = 79
     Width = 572
-    Height = 24
+    Height = 25
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13

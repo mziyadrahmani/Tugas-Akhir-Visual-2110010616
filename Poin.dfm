@@ -1,6 +1,6 @@
 object FPoin: TFPoin
-  Left = 252
-  Top = 57
+  Left = 361
+  Top = 143
   Width = 884
   Height = 633
   Caption = 'Poin'
@@ -195,7 +195,7 @@ object FPoin: TFPoin
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45102.950560694400000000
-    ReportOptions.LastChange = 45102.954931122700000000
+    ReportOptions.LastChange = 45117.641089270830000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -227,8 +227,8 @@ object FPoin: TFPoin
         Top = 18.897650000000000000
         Width = 740.409927000000000000
         object Memo1: TfrxMemoView
-          Left = 136.063080000000000000
-          Top = 11.338590000000000000
+          Left = 115.153989090000000000
+          Top = 9.520408180000000000
           Width = 506.457020000000000000
           Height = 34.015770000000000000
           ShowHint = False
@@ -239,7 +239,7 @@ object FPoin: TFPoin
           Font.Style = [fsBold]
           HAlign = haCenter
           Memo.UTF8 = (
-            'LAPORAN DATA POIN (PELANGGARAN/PRESTASI)')
+            'LAPORAN DATA POIN')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -254,16 +254,16 @@ object FPoin: TFPoin
           Width = 52.913420000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NO')
+            'No')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -273,16 +273,16 @@ object FPoin: TFPoin
           Width = 215.433210000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NAMA POIN')
+            'Nama Poin')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -292,16 +292,16 @@ object FPoin: TFPoin
           Width = 98.267780000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'BOBOT')
+            'Bobot')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -311,16 +311,16 @@ object FPoin: TFPoin
           Width = 154.960730000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'JENIS')
+            'Jenis')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -330,16 +330,16 @@ object FPoin: TFPoin
           Width = 136.063080000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clActiveCaption
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clBtnHighlight
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'STATUS')
+            'Status')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -362,7 +362,6 @@ object FPoin: TFPoin
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[Line]')
@@ -383,7 +382,6 @@ object FPoin: TFPoin
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nama_poin"]')
@@ -404,7 +402,6 @@ object FPoin: TFPoin
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."bobot"]')
@@ -425,7 +422,6 @@ object FPoin: TFPoin
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."jenis"]')
@@ -446,7 +442,6 @@ object FPoin: TFPoin
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."status"]')
@@ -470,7 +465,6 @@ object FPoin: TFPoin
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'Jumlah Data Poin :')
@@ -489,7 +483,6 @@ object FPoin: TFPoin
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[COUNT(MasterData1)]')

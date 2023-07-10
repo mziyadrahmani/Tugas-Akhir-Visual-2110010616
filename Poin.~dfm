@@ -16,10 +16,10 @@ object FPoin: TFPoin
   TextHeight = 16
   object lblnamapoin: TLabel
     Left = 30
-    Top = 20
-    Width = 105
+    Top = 28
+    Width = 85
     Height = 21
-    Caption = 'NAMA POIN :'
+    Caption = 'Nama Poin'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -29,10 +29,10 @@ object FPoin: TFPoin
   end
   object lblbobot: TLabel
     Left = 30
-    Top = 59
-    Width = 62
+    Top = 67
+    Width = 47
     Height = 21
-    Caption = 'BOBOT :'
+    Caption = 'Bobot'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -43,9 +43,9 @@ object FPoin: TFPoin
   object lbljenis: TLabel
     Left = 31
     Top = 108
-    Width = 50
+    Width = 37
     Height = 21
-    Caption = 'JENIS :'
+    Caption = 'Jenis'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -56,9 +56,9 @@ object FPoin: TFPoin
   object lblstatus: TLabel
     Left = 31
     Top = 147
-    Width = 64
+    Width = 49
     Height = 21
-    Caption = 'STATUS :'
+    Caption = 'Status'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -68,14 +68,14 @@ object FPoin: TFPoin
   end
   object Edtnamapoin: TEdit
     Left = 167
-    Top = 20
+    Top = 28
     Width = 666
     Height = 24
     TabOrder = 0
   end
   object Edtbobot: TEdit
     Left = 167
-    Top = 59
+    Top = 67
     Width = 666
     Height = 24
     TabOrder = 1

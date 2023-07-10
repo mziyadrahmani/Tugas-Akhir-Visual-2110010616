@@ -17,9 +17,9 @@ object FOrtu: TFOrtu
   object lblnik: TLabel
     Left = 30
     Top = 20
-    Width = 34
+    Width = 26
     Height = 21
-    Caption = 'NIK :'
+    Caption = 'NIK'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -30,9 +30,9 @@ object FOrtu: TFOrtu
   object lblnama: TLabel
     Left = 30
     Top = 59
-    Width = 61
+    Width = 49
     Height = 21
-    Caption = 'NAMA :'
+    Caption = 'Nama'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -43,9 +43,9 @@ object FOrtu: TFOrtu
   object lblpendidikan: TLabel
     Left = 30
     Top = 98
-    Width = 106
+    Width = 86
     Height = 21
-    Caption = 'PENDIDIKAN :'
+    Caption = 'Pendidikan'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -56,9 +56,9 @@ object FOrtu: TFOrtu
   object lblpekerjaan: TLabel
     Left = 30
     Top = 138
-    Width = 100
+    Width = 77
     Height = 21
-    Caption = 'PEKERJAAN :'
+    Caption = 'Pekerjaan'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -69,9 +69,9 @@ object FOrtu: TFOrtu
   object lbltelp: TLabel
     Left = 30
     Top = 177
-    Width = 41
+    Width = 62
     Height = 21
-    Caption = 'TELP :'
+    Caption = 'Telepon'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -82,9 +82,9 @@ object FOrtu: TFOrtu
   object lblalamat: TLabel
     Left = 31
     Top = 220
-    Width = 77
+    Width = 60
     Height = 21
-    Caption = 'ALAMAT :'
+    Caption = 'Alamat'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -95,9 +95,9 @@ object FOrtu: TFOrtu
   object lbljk: TLabel
     Left = 31
     Top = 259
-    Width = 124
+    Width = 102
     Height = 21
-    Caption = 'JENIS KELAMIN :'
+    Caption = 'Jenis Kelamin'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -108,9 +108,9 @@ object FOrtu: TFOrtu
   object lblagama: TLabel
     Left = 31
     Top = 298
-    Width = 76
+    Width = 61
     Height = 21
-    Caption = 'AGAMA :'
+    Caption = 'Agama'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16
@@ -121,9 +121,9 @@ object FOrtu: TFOrtu
   object lblisactive: TLabel
     Left = 31
     Top = 338
-    Width = 84
+    Width = 68
     Height = 21
-    Caption = 'IS ACTIVE :'
+    Caption = 'Is Active'
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
     Font.Height = -16

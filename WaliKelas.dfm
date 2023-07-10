@@ -1,6 +1,6 @@
 object FWaliKelas: TFWaliKelas
-  Left = 312
-  Top = 49
+  Left = 327
+  Top = 76
   Width = 897
   Height = 731
   Caption = 'Wali Kelas'
@@ -82,7 +82,7 @@ object FWaliKelas: TFWaliKelas
   object lbljk: TLabel
     Left = 414
     Top = 59
-    Width = 628
+    Width = 6
     Height = 23
     Caption = ' '
     Font.Charset = ANSI_CHARSET
@@ -288,7 +288,7 @@ object FWaliKelas: TFWaliKelas
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45103.402012476900000000
-    ReportOptions.LastChange = 45110.854571180600000000
+    ReportOptions.LastChange = 45117.649027430550000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -321,8 +321,8 @@ object FWaliKelas: TFWaliKelas
         Top = 18.897650000000000000
         Width = 980.410082000000000000
         object Memo1: TfrxMemoView
-          Left = 302.362400000000000000
-          Top = 7.559060000000000000
+          Left = 327.362400000000000000
+          Top = 9.559060000000000000
           Width = 313.700990000000000000
           Height = 18.897650000000000000
           ShowHint = False
@@ -348,13 +348,13 @@ object FWaliKelas: TFWaliKelas
           Width = 45.354360000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'NO')
@@ -367,13 +367,13 @@ object FWaliKelas: TFWaliKelas
           Width = 136.063080000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'NIK')
@@ -386,13 +386,13 @@ object FWaliKelas: TFWaliKelas
           Width = 136.063080000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'NAMA')
@@ -405,13 +405,13 @@ object FWaliKelas: TFWaliKelas
           Width = 45.354360000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'JK')
@@ -424,13 +424,13 @@ object FWaliKelas: TFWaliKelas
           Width = 117.165430000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'PENDIDIKAN')
@@ -443,13 +443,13 @@ object FWaliKelas: TFWaliKelas
           Width = 109.606370000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'MATA PELAJARAN')
@@ -462,13 +462,13 @@ object FWaliKelas: TFWaliKelas
           Width = 102.047310000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'ALAMAT')
@@ -481,13 +481,13 @@ object FWaliKelas: TFWaliKelas
           Width = 120.944960000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'STATUS')
@@ -500,13 +500,13 @@ object FWaliKelas: TFWaliKelas
           Width = 98.267780000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = 16700346
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'TELEPON')
@@ -532,7 +532,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[Line]')
@@ -553,7 +552,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nik"]')
@@ -574,7 +572,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nama"]')
@@ -595,7 +592,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."jk"]')
@@ -616,7 +612,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."pendidikan"]')
@@ -637,7 +632,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."matpel"]')
@@ -658,7 +652,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."alamat"]')
@@ -679,7 +672,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."status"]')
@@ -700,7 +692,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."telp"]')
@@ -713,9 +704,9 @@ object FWaliKelas: TFWaliKelas
         Top = 253.228510000000000000
         Width = 980.410082000000000000
         object Memo20: TfrxMemoView
-          Left = 740.787880000000000000
+          Left = 641.787880000000000000
           Top = 18.897650000000000000
-          Width = 158.740260000000000000
+          Width = 257.740260000000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
@@ -724,7 +715,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             'Jumlah Data Wali Kelas :')
@@ -743,7 +733,6 @@ object FWaliKelas: TFWaliKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[COUNT(MasterData1)]')

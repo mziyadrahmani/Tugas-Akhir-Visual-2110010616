@@ -294,7 +294,7 @@ object FHubungan: TFHubungan
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45103.878057199100000000
-    ReportOptions.LastChange = 45117.624353588000000000
+    ReportOptions.LastChange = 45117.633376377310000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -338,7 +338,7 @@ object FHubungan: TFHubungan
           Font.Style = [fsBold]
           HAlign = haCenter
           Memo.UTF8 = (
-            'LAPORAN DATA STATUS HUBUNGAN ORANG TUA DAN SISWA')
+            'LAPORAN DATA HUBUNGAN')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -355,7 +355,7 @@ object FHubungan: TFHubungan
           ShowHint = False
           Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
@@ -375,7 +375,7 @@ object FHubungan: TFHubungan
           ShowHint = False
           Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
@@ -395,7 +395,7 @@ object FHubungan: TFHubungan
           ShowHint = False
           Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
@@ -415,7 +415,7 @@ object FHubungan: TFHubungan
           ShowHint = False
           Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
@@ -435,7 +435,7 @@ object FHubungan: TFHubungan
           ShowHint = False
           Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
@@ -455,7 +455,7 @@ object FHubungan: TFHubungan
           ShowHint = False
           Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
@@ -486,7 +486,6 @@ object FHubungan: TFHubungan
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[Line]')
@@ -507,7 +506,6 @@ object FHubungan: TFHubungan
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."siswa_id"]')
@@ -528,7 +526,6 @@ object FHubungan: TFHubungan
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."ortu_id"]')
@@ -549,7 +546,6 @@ object FHubungan: TFHubungan
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."status_hub_anak"]')
@@ -570,7 +566,6 @@ object FHubungan: TFHubungan
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."keterangan"]')
@@ -591,7 +586,6 @@ object FHubungan: TFHubungan
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."status_ortu"]')
@@ -604,9 +598,9 @@ object FHubungan: TFHubungan
         Top = 241.889920000000000000
         Width = 740.409927000000000000
         object Memo14: TfrxMemoView
-          Left = 366.614410000000000000
+          Left = 347.716760000000000000
           Top = 11.338590000000000000
-          Width = 275.905690000000000000
+          Width = 294.803340000000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET

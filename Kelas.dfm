@@ -1,6 +1,6 @@
 object FKelas: TFKelas
-  Left = 482
-  Top = 118
+  Left = 380
+  Top = 173
   Width = 853
   Height = 593
   Caption = 'Kelas'
@@ -231,7 +231,7 @@ object FKelas: TFKelas
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45101.966930115700000000
-    ReportOptions.LastChange = 45101.970453796300000000
+    ReportOptions.LastChange = 45117.635840150460000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -287,16 +287,16 @@ object FKelas: TFKelas
           Width = 37.795300000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NO')
+            'No')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -305,16 +305,16 @@ object FKelas: TFKelas
           Width = 136.063080000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NAMA')
+            'Nama')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -323,16 +323,16 @@ object FKelas: TFKelas
           Width = 136.063080000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'JENIS')
+            'Jenis')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -341,16 +341,16 @@ object FKelas: TFKelas
           Width = 136.063080000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
-          Font.Color = clBlack
+          Font.Color = clWhite
           Font.Height = -13
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'JURUSAN')
+            'Jurusan')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -373,7 +373,6 @@ object FKelas: TFKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[Line]')
@@ -394,7 +393,6 @@ object FKelas: TFKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."nama"]')
@@ -415,7 +413,6 @@ object FKelas: TFKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."jenis"]')
@@ -436,7 +433,6 @@ object FKelas: TFKelas
           Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 2.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
             '[frxDBDataset1."jurusan"]')
