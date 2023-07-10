@@ -191,7 +191,7 @@ object FHubungan: TFHubungan
     Left = 305
     Top = 98
     Width = 672
-    Height = 24
+    Height = 25
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -204,7 +204,7 @@ object FHubungan: TFHubungan
     Left = 305
     Top = 138
     Width = 672
-    Height = 24
+    Height = 25
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -217,7 +217,7 @@ object FHubungan: TFHubungan
     Left = 305
     Top = 177
     Width = 672
-    Height = 24
+    Height = 25
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -13
@@ -294,7 +294,7 @@ object FHubungan: TFHubungan
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 45103.878057199100000000
-    ReportOptions.LastChange = 45103.882545463000000000
+    ReportOptions.LastChange = 45117.624353588000000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -334,7 +334,7 @@ object FHubungan: TFHubungan
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -20
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           HAlign = haCenter
           Memo.UTF8 = (
@@ -353,16 +353,17 @@ object FHubungan: TFHubungan
           Width = 37.795300000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
+          GapX = 1.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'NO')
+            'No')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -372,16 +373,17 @@ object FHubungan: TFHubungan
           Width = 94.488250000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
+          GapX = 1.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'SISWA ID')
+            'Siswa ID')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -391,16 +393,17 @@ object FHubungan: TFHubungan
           Width = 94.488250000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
+          GapX = 1.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'ORTU ID')
+            'Orangtua ID')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -410,16 +413,17 @@ object FHubungan: TFHubungan
           Width = 162.519790000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
+          GapX = 1.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'STATUS HUB ANAK')
+            'Status Hubungan Anak')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -429,16 +433,17 @@ object FHubungan: TFHubungan
           Width = 102.047310000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
+          GapX = 1.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'KET')
+            'Keterangan')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -448,16 +453,17 @@ object FHubungan: TFHubungan
           Width = 162.519790000000000000
           Height = 37.795275590000000000
           ShowHint = False
+          Color = clSkyBlue
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
-          Frame.Width = 1.500000000000000000
+          GapX = 1.000000000000000000
           HAlign = haCenter
           Memo.UTF8 = (
-            'STATUS ORTU')
+            'Status Ortu')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -477,8 +483,8 @@ object FHubungan: TFHubungan
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = [fsBold]
+          Font.Name = 'Century Gothic'
+          Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
           HAlign = haCenter
@@ -498,8 +504,8 @@ object FHubungan: TFHubungan
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = [fsBold]
+          Font.Name = 'Century Gothic'
+          Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
           HAlign = haCenter
@@ -519,8 +525,8 @@ object FHubungan: TFHubungan
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = [fsBold]
+          Font.Name = 'Century Gothic'
+          Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
           HAlign = haCenter
@@ -540,8 +546,8 @@ object FHubungan: TFHubungan
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = [fsBold]
+          Font.Name = 'Century Gothic'
+          Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
           HAlign = haCenter
@@ -561,8 +567,8 @@ object FHubungan: TFHubungan
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = [fsBold]
+          Font.Name = 'Century Gothic'
+          Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
           HAlign = haCenter
@@ -582,8 +588,8 @@ object FHubungan: TFHubungan
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
-          Font.Style = [fsBold]
+          Font.Name = 'Century Gothic'
+          Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
           HAlign = haCenter
@@ -606,7 +612,7 @@ object FHubungan: TFHubungan
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -619,13 +625,13 @@ object FHubungan: TFHubungan
         object Memo15: TfrxMemoView
           Left = 642.520100000000000000
           Top = 11.338590000000000000
-          Width = 37.795275590551200000
+          Width = 37.795275590000000000
           Height = 18.897650000000000000
           ShowHint = False
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000

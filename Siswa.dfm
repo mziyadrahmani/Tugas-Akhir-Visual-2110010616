@@ -439,7 +439,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -20
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Memo.UTF8 = (
             'LAPORAN DATA SISWA')
@@ -458,7 +458,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -476,7 +476,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -494,7 +494,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -512,7 +512,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -530,7 +530,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -548,7 +548,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -566,7 +566,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -584,7 +584,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -602,7 +602,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -620,7 +620,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -638,7 +638,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -656,7 +656,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -680,7 +680,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -701,7 +701,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -722,7 +722,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -743,7 +743,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -764,7 +764,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -785,7 +785,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -806,7 +806,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -827,7 +827,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -848,7 +848,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -869,7 +869,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -890,7 +890,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -911,7 +911,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -935,7 +935,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -954,7 +954,7 @@ object FSiswa: TFSiswa
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -11
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 1.500000000000000000
@@ -974,7 +974,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000
@@ -993,7 +993,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000
@@ -1012,7 +1012,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000
@@ -1031,7 +1031,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000
@@ -1050,7 +1050,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000
@@ -1069,7 +1069,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000
@@ -1088,7 +1088,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000
@@ -1107,7 +1107,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000
@@ -1126,7 +1126,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000
@@ -1145,7 +1145,7 @@ object FSiswa: TFSiswa
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlack
         Font.Height = -11
-        Font.Name = 'Arial'
+        Font.Name = 'Century Gothic'
         Font.Style = [fsBold]
         Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
         Frame.Width = 1.500000000000000000

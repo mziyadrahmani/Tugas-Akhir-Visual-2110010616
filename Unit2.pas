@@ -29,7 +29,7 @@ var
 
 implementation
 
-uses Unit1, Menu;
+uses Unit1, Menu, Unit3;
 
 {$R *.dfm}
 

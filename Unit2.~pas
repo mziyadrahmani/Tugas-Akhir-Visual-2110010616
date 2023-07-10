@@ -74,7 +74,7 @@ begin
         end
         else if UserLevel = 'User' then
         begin
-          MenuUtamaAdmin.ShowModal; // Show the MenuUtamaAdmin form for User level
+          MenuUtamaUser.ShowModal; // Show the MenuUtamaAdmin form for User level
         end
         else
         begin

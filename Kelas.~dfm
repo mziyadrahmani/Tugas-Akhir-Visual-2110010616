@@ -1,8 +1,8 @@
 object FKelas: TFKelas
-  Left = 734
-  Top = 221
-  Width = 706
-  Height = 487
+  Left = 482
+  Top = 118
+  Width = 853
+  Height = 593
   Caption = 'Kelas'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -13,10 +13,10 @@ object FKelas: TFKelas
   OldCreateOrder = False
   OnShow = FormShow
   PixelsPerInch = 96
-  TextHeight = 13
+  TextHeight = 16
   object lblnama: TLabel
-    Left = 32
-    Top = 24
+    Left = 39
+    Top = 38
     Width = 49
     Height = 21
     Caption = 'Nama'
@@ -28,8 +28,8 @@ object FKelas: TFKelas
     ParentFont = False
   end
   object lbljenis: TLabel
-    Left = 32
-    Top = 56
+    Left = 39
+    Top = 77
     Width = 39
     Height = 21
     Caption = 'Kelas'
@@ -41,8 +41,8 @@ object FKelas: TFKelas
     ParentFont = False
   end
   object lbljurusan: TLabel
-    Left = 32
-    Top = 88
+    Left = 39
+    Top = 116
     Width = 60
     Height = 21
     Caption = 'Jurusan'
@@ -54,40 +54,40 @@ object FKelas: TFKelas
     ParentFont = False
   end
   object Edtnama: TEdit
-    Left = 176
-    Top = 32
-    Width = 465
+    Left = 217
+    Top = 39
+    Width = 572
     Height = 24
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
     TabOrder = 0
   end
   object Edtjenis: TEdit
-    Left = 176
-    Top = 64
-    Width = 465
+    Left = 217
+    Top = 79
+    Width = 572
     Height = 24
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
     TabOrder = 1
   end
   object bbaru: TButton
-    Left = 56
-    Top = 136
-    Width = 105
-    Height = 41
+    Left = 69
+    Top = 167
+    Width = 129
+    Height = 51
     Caption = 'BARU'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
@@ -95,14 +95,14 @@ object FKelas: TFKelas
     OnClick = bbaruClick
   end
   object bsimpan: TButton
-    Left = 176
-    Top = 136
-    Width = 105
-    Height = 41
+    Left = 217
+    Top = 167
+    Width = 129
+    Height = 51
     Caption = 'SIMPAN'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
@@ -110,14 +110,14 @@ object FKelas: TFKelas
     OnClick = bsimpanClick
   end
   object bedit: TButton
-    Left = 296
-    Top = 136
-    Width = 105
-    Height = 41
+    Left = 364
+    Top = 167
+    Width = 130
+    Height = 51
     Caption = 'EDIT'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
@@ -125,14 +125,14 @@ object FKelas: TFKelas
     OnClick = beditClick
   end
   object bhapus: TButton
-    Left = 416
-    Top = 136
-    Width = 105
-    Height = 41
+    Left = 512
+    Top = 167
+    Width = 129
+    Height = 51
     Caption = 'HAPUS'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
@@ -140,14 +140,14 @@ object FKelas: TFKelas
     OnClick = bhapusClick
   end
   object bbatal: TButton
-    Left = 536
-    Top = 136
-    Width = 105
-    Height = 41
+    Left = 660
+    Top = 167
+    Width = 129
+    Height = 51
     Caption = 'BATAL'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
@@ -155,14 +155,14 @@ object FKelas: TFKelas
     OnClick = bbatalClick
   end
   object dbgrd1: TDBGrid
-    Left = 56
-    Top = 192
-    Width = 585
-    Height = 241
+    Left = 69
+    Top = 236
+    Width = 720
+    Height = 297
     DataSource = ds1
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
@@ -175,16 +175,16 @@ object FKelas: TFKelas
     OnCellClick = dbgrd1CellClick
   end
   object cbbjurusan: TComboBox
-    Left = 176
-    Top = 96
-    Width = 465
-    Height = 24
+    Left = 217
+    Top = 118
+    Width = 572
+    Height = 25
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
-    ItemHeight = 16
+    ItemHeight = 17
     ParentFont = False
     TabOrder = 8
     Text = '--- Pilih ---'
@@ -193,14 +193,14 @@ object FKelas: TFKelas
       'IPS')
   end
   object Cetak: TButton
-    Left = 8
-    Top = 272
-    Width = 41
-    Height = 73
+    Left = 10
+    Top = 335
+    Width = 50
+    Height = 90
     Caption = 'Cetak'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
-    Font.Height = -11
+    Font.Height = -13
     Font.Name = 'Century Gothic'
     Font.Style = []
     ParentFont = False
@@ -214,13 +214,13 @@ object FKelas: TFKelas
       'select * from kelas'
       '')
     Params = <>
-    Left = 760
-    Top = 64
+    Left = 80
+    Top = 496
   end
   object ds1: TDataSource
     DataSet = ZQuery1
-    Left = 760
-    Top = 16
+    Left = 80
+    Top = 464
   end
   object frxkelas: TfrxReport
     Version = '4.12.6'
@@ -237,8 +237,8 @@ object FKelas: TFKelas
       'begin'
       ''
       'end.')
-    Left = 808
-    Top = 16
+    Left = 112
+    Top = 464
     Datasets = <
       item
         DataSet = frxDBDataset1
@@ -271,7 +271,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -20
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = [fsBold]
           Memo.UTF8 = (
             'LAPORAN DATA KELAS')
@@ -290,7 +290,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 2.000000000000000000
@@ -308,7 +308,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 2.000000000000000000
@@ -326,7 +326,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 2.000000000000000000
@@ -344,7 +344,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 2.000000000000000000
@@ -370,7 +370,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 2.000000000000000000
@@ -391,7 +391,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 2.000000000000000000
@@ -412,7 +412,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 2.000000000000000000
@@ -433,7 +433,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
           Frame.Width = 2.000000000000000000
@@ -457,7 +457,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Width = 2.000000000000000000
           HAlign = haCenter
@@ -475,7 +475,7 @@ object FKelas: TFKelas
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
-          Font.Name = 'Arial'
+          Font.Name = 'Century Gothic'
           Font.Style = []
           Frame.Width = 2.000000000000000000
           HAlign = haCenter
@@ -492,7 +492,7 @@ object FKelas: TFKelas
     CloseDataSource = False
     DataSet = ZQuery1
     BCDToCurrency = False
-    Left = 808
-    Top = 64
+    Left = 112
+    Top = 496
   end
 end

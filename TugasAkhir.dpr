@@ -13,7 +13,7 @@ uses
   Kelas in 'Kelas.pas' {FKelas},
   Unit1 in 'Unit1.pas' {DataModule1: TDataModule},
   Unit2 in 'Unit2.pas' {login},
-  Unit3 in 'Unit3.pas' {MenuUtamaAdmin};
+  Unit3 in 'Unit3.pas' {MenuUtamaUser};
 
 {$R *.res}
 
@@ -21,6 +21,7 @@ begin
   Application.Initialize;
   Application.CreateForm(TDataModule1, DataModule1);
   Application.CreateForm(Tlogin, login);
+  Application.CreateForm(TMenuUtamaUser, MenuUtamaUser);
   Application.CreateForm(TMenuUtama, MenuUtama);
   Application.CreateForm(TFSiswa, FSiswa);
   Application.CreateForm(TFOrtu, FOrtu);
@@ -30,6 +31,5 @@ begin
   Application.CreateForm(TFWaliKelas, FWaliKelas);
   Application.CreateForm(TFPoin, FPoin);
   Application.CreateForm(TFKelas, FKelas);
-  Application.CreateForm(TMenuUtamaAdmin, MenuUtamaAdmin);
   Application.Run;
 end.
